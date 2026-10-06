@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "case_id": "wh_combi",
+  "vehicle": "WH",
+  "interface_revision": "0.1-study",
+  "cargo_density_kg_m3": 100,
+  "assignments": [
+    {
+      "position_id": "WH-01",
+      "kind": "PAX4",
+      "interface_class": "WH",
+      "cargo_fill_fraction": 0,
+      "module_gross_cg_offset_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position_id": "WH-02",
+      "kind": "PAX4",
+      "interface_class": "WH",
+      "cargo_fill_fraction": 0,
+      "module_gross_cg_offset_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position_id": "WH-03",
+      "kind": "CARGO",
+      "interface_class": "WH",
+      "cargo_fill_fraction": 1,
+      "module_gross_cg_offset_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position_id": "WH-04",
+      "kind": "CARGO",
+      "interface_class": "WH",
+      "cargo_fill_fraction": 1,
+      "module_gross_cg_offset_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position_id": "WH-05",
+      "kind": "CARGO",
+      "interface_class": "WH",
+      "cargo_fill_fraction": 1,
+      "module_gross_cg_offset_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position_id": "WH-06",
+      "kind": "CARGO",
+      "interface_class": "WH",
+      "cargo_fill_fraction": 1,
+      "module_gross_cg_offset_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position_id": "WH-07",
+      "kind": "PAX4",
+      "interface_class": "WH",
+      "cargo_fill_fraction": 0,
+      "module_gross_cg_offset_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position_id": "WH-08",
+      "kind": "PAX4",
+      "interface_class": "WH",
+      "cargo_fill_fraction": 0,
+      "module_gross_cg_offset_m": [
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

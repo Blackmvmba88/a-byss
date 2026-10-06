@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="482" viewBox="0 0 850 482">
+<style>text{font-family:Arial,sans-serif;fill:#0f172a}</style>
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<text x="30" y="28" font-size="19">wh_unbalanced_unload — vista superior conceptual</text>
+<text x="30" y="51" font-size="12">X hacia popa → · Y positivo arriba · dimensiones en metros · no es plano de fabricación</text>
+<rect x="60.0" y="80.0" width="719.1999999999999" height="322.40000000000003" fill="#ffffff" stroke="#334155"/>
+<rect x="60.0" y="216.4" width="719.1999999999999" height="49.6" fill="#cbd5e1" stroke="#334155"/>
+<rect x="78.6" y="272.2" width="148.79999999999998" height="124.0" fill="#fde68a" stroke="#334155"/><text x="153.0" y="334.2" text-anchor="middle" font-size="13">WH-01 CARGO</text>
+<rect x="78.6" y="86.2" width="148.79999999999998" height="124.0" fill="#fde68a" stroke="#334155"/><text x="153.0" y="148.2" text-anchor="middle" font-size="13">WH-02 CARGO</text>
+<rect x="252.2" y="272.2" width="148.79999999999998" height="124.0" fill="#fde68a" stroke="#334155"/><text x="326.59999999999997" y="334.2" text-anchor="middle" font-size="13">WH-03 CARGO</text>
+<rect x="252.2" y="86.2" width="148.79999999999998" height="124.0" fill="#fde68a" stroke="#334155"/><text x="326.59999999999997" y="148.2" text-anchor="middle" font-size="13">WH-04 CARGO</text>
+<rect x="425.79999999999995" y="272.2" width="148.79999999999998" height="124.0" fill="#fde68a" stroke="#334155"/><text x="500.19999999999993" y="334.2" text-anchor="middle" font-size="13">WH-05 CARGO</text>
+<rect x="425.79999999999995" y="86.2" width="148.79999999999998" height="124.0" fill="#fde68a" stroke="#334155"/><text x="500.19999999999993" y="148.2" text-anchor="middle" font-size="13">WH-06 CARGO</text>
+<rect x="599.4000000000001" y="272.2" width="148.79999999999998" height="124.0" fill="#fde68a" stroke="#334155"/><text x="673.8000000000001" y="334.2" text-anchor="middle" font-size="13">WH-07 CARGO</text>
+<rect x="599.4000000000001" y="86.2" width="148.79999999999998" height="124.0" fill="#fde68a" stroke="#334155"/><text x="673.8000000000001" y="148.2" text-anchor="middle" font-size="13">WH-08 CARGO</text>
+<circle cx="413.40000000000003" cy="173.56363636363636" r="6" fill="#dc2626"/>
+<text x="30" y="440" font-size="13">Cian: PAX-4 · amarillo: CARGO · gris: pasillo reservado · rojo: CG del interior</text>
+<text x="30" y="462" font-size="12">Cabina 11.6 × 5.2 m · CG (5.700, 1.091, 1.150) · FAIL · NOT_RELEASED</text>
+</svg>

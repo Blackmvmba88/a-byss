@@ -26,3 +26,7 @@ IF-05/06/08 y, cuando proceda, IF-10 siguen vigentes. No circular propelente por
 | Tiempo y repetibilidad de conversión | Integración/mantenimiento | G2 |
 
 Estado actual: valores no congelados, compatibilidad física no aprobada.
+
+## Exploración 0.4.0
+
+El [modelo geométrico](../docs/GEOMETRY_AND_BALANCE.md) propone cajas y posiciones con revisión `0.1-study`. Esa revisión identifica hipótesis de simulación, no compatibilidad aprobada. La [evidencia parcial](../evidence/P0-021/README.md) no verifica instalación continua, anclajes ni CG global.

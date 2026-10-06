@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.0 — 2026-10-06
+
+- Envolventes rectangulares y posiciones WH/MR/TS con pasillos reservados.
+- Verificador de colisión, límites de cabina, apertura lateral y CG del interior.
+- Manifiestos por posición con fracción de carga y desplazamiento de CG declarado.
+- Cuatro casos, diagramas SVG y hashes reproducibles; descarga unilateral detectada.
+- Doce pruebas nuevas, veinte en total. CG del vehículo y recorrido de acceso siguen pendientes.
+
 ## 0.3.0 — 2026-10-06
 
 - Catálogo JSON de asignaciones hipotéticas de masa y volumen por clase.

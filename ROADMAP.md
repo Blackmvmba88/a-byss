@@ -84,3 +84,7 @@ Las clases WH/MR/TS se dimensionan de forma separada. Si los objetivos de 32/8/4
 ## Incremento 0.3.0 — cálculo exploratorio
 
 Disponible un [presupuesto de interiores](docs/SIZING_BASELINE.md) reproducible con ocho casos y pruebas aritméticas. Es preparación de F0/F1: todavía no define misión, geometría o límites derivados de ingeniería, y no acredita G0/G1. La evidencia parcial está en [P0-022](evidence/P0-022/README.md).
+
+## Incremento 0.4.0 — layouts y balance interior
+
+[Geometría y balance](docs/GEOMETRY_AND_BALANCE.md) añade posiciones, cajas, aperturas y CG del payload. Se detecta un caso de descarga lateral desequilibrada. Siguiente dependencia: misión concreta, masas fijas y geometría de acceso con recorrido continuo. G0/G1 siguen abiertos.

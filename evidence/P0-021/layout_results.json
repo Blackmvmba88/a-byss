@@ -1,0 +1,559 @@
+{
+  "requirement_status": "OPEN",
+  "scope": "partial geometry and payload CG only",
+  "input_and_code_sha256": {
+    "models/module_assumptions.json": "def9aec4cfdaa457f01af689bdd437286de1d44655676653507ac364ecce246a",
+    "models/geometry_assumptions.json": "efd7ac73c71a79c745c273b9b337f8b888f93f1523282cbcbd23426ab78b494c",
+    "software/payload_budget.py": "8859d6997c54b434de97c58a87136de3f218588e99f4893eaa811ad87e138fb7",
+    "software/layout_check.py": "1acc363fc3d81fa69821a47870f5c995845613768641dfa07291da715dce6777",
+    "software/generate_layout_report.py": "8f773868196ee1d04e287401c4df0ba08fef4f4b96f61bc9c4a7dc0737033f59",
+    "models/layouts/wh_combi.json": "7595cddecf6762c7805e6965dfde588771a68b80bb9a61666ac9de3c21b49231",
+    "models/layouts/mr_combi.json": "38db1c023148fbb9d933e3ac6b2144ac8a1f30f749b3d23565698f4b6ef8d30f",
+    "models/layouts/ts_cargo.json": "3bb8874ba83a3ceb506fb736e8038cb0778ce3c33c507182f480a257919945e3",
+    "models/layouts/wh_unbalanced_unload.json": "4ff0c05d78a91a5bcd4f253f20bf57507ec4feba73e1686d211b9f32a74632df"
+  },
+  "results": [
+    {
+      "case_id": "wh_combi",
+      "vehicle": "WH",
+      "partial_check_status": "PASS_PARTIAL",
+      "failures": [],
+      "payload_gross_mass_kg": 6720.0,
+      "cargo_net_kg": 3200.0,
+      "payload_cg_m": [
+        5.7,
+        0.0,
+        1.15
+      ],
+      "payload_cg_window_m": [
+        [
+          3.7,
+          7.7
+        ],
+        [
+          -0.35,
+          0.35
+        ],
+        [
+          0.8,
+          1.5
+        ]
+      ],
+      "installed_modules": [
+        {
+          "id": "WH-01",
+          "center_m": [
+            1.5,
+            -1.5,
+            1.15
+          ],
+          "size_m": [
+            2.4,
+            2.0,
+            2.2
+          ],
+          "kind": "PAX4",
+          "gross_mass_kg": 730,
+          "gross_cg_m": [
+            1.5,
+            -1.5,
+            1.15
+          ]
+        },
+        {
+          "id": "WH-02",
+          "center_m": [
+            1.5,
+            1.5,
+            1.15
+          ],
+          "size_m": [
+            2.4,
+            2.0,
+            2.2
+          ],
+          "kind": "PAX4",
+          "gross_mass_kg": 730,
+          "gross_cg_m": [
+            1.5,
+            1.5,
+            1.15
+          ]
+        },
+        {
+          "id": "WH-03",
+          "center_m": [
+            4.3,
+            -1.5,
+            1.15
+          ],
+          "size_m": [
+            2.4,
+            2.0,
+            2.2
+          ],
+          "kind": "CARGO",
+          "gross_mass_kg": 950.0,
+          "gross_cg_m": [
+            4.3,
+            -1.5,
+            1.15
+          ]
+        },
+        {
+          "id": "WH-04",
+          "center_m": [
+            4.3,
+            1.5,
+            1.15
+          ],
+          "size_m": [
+            2.4,
+            2.0,
+            2.2
+          ],
+          "kind": "CARGO",
+          "gross_mass_kg": 950.0,
+          "gross_cg_m": [
+            4.3,
+            1.5,
+            1.15
+          ]
+        },
+        {
+          "id": "WH-05",
+          "center_m": [
+            7.1,
+            -1.5,
+            1.15
+          ],
+          "size_m": [
+            2.4,
+            2.0,
+            2.2
+          ],
+          "kind": "CARGO",
+          "gross_mass_kg": 950.0,
+          "gross_cg_m": [
+            7.1,
+            -1.5,
+            1.15
+          ]
+        },
+        {
+          "id": "WH-06",
+          "center_m": [
+            7.1,
+            1.5,
+            1.15
+          ],
+          "size_m": [
+            2.4,
+            2.0,
+            2.2
+          ],
+          "kind": "CARGO",
+          "gross_mass_kg": 950.0,
+          "gross_cg_m": [
+            7.1,
+            1.5,
+            1.15
+          ]
+        },
+        {
+          "id": "WH-07",
+          "center_m": [
+            9.9,
+            -1.5,
+            1.15
+          ],
+          "size_m": [
+            2.4,
+            2.0,
+            2.2
+          ],
+          "kind": "PAX4",
+          "gross_mass_kg": 730,
+          "gross_cg_m": [
+            9.9,
+            -1.5,
+            1.15
+          ]
+        },
+        {
+          "id": "WH-08",
+          "center_m": [
+            9.9,
+            1.5,
+            1.15
+          ],
+          "size_m": [
+            2.4,
+            2.0,
+            2.2
+          ],
+          "kind": "PAX4",
+          "gross_mass_kg": 730,
+          "gross_cg_m": [
+            9.9,
+            1.5,
+            1.15
+          ]
+        }
+      ],
+      "whole_vehicle_cg_m": null,
+      "access_route_status": "NOT_EVALUATED",
+      "engineering_status": "UNVALIDATED",
+      "release_status": "NOT_RELEASED",
+      "omitted_checks": [
+        "continuous_installation_path",
+        "whole_vehicle_CG_and_inertia",
+        "loads_and_restraints",
+        "human_layout_and_evacuation",
+        "power_thermal_and_mission"
+      ]
+    },
+    {
+      "case_id": "mr_combi",
+      "vehicle": "MR",
+      "partial_check_status": "PASS_PARTIAL",
+      "failures": [],
+      "payload_gross_mass_kg": 1880.0,
+      "cargo_net_kg": 700.0,
+      "payload_cg_m": [
+        3.0148936170212766,
+        -0.5,
+        1.15
+      ],
+      "payload_cg_window_m": [
+        [
+          2.5,
+          3.9
+        ],
+        [
+          -0.8,
+          -0.2
+        ],
+        [
+          0.8,
+          1.5
+        ]
+      ],
+      "installed_modules": [
+        {
+          "id": "MR-01",
+          "center_m": [
+            1.6,
+            -0.5,
+            1.15
+          ],
+          "size_m": [
+            2.4,
+            2,
+            2.2
+          ],
+          "kind": "PAX4",
+          "gross_mass_kg": 930,
+          "gross_cg_m": [
+            1.6,
+            -0.5,
+            1.15
+          ]
+        },
+        {
+          "id": "MR-02",
+          "center_m": [
+            4.4,
+            -0.5,
+            1.15
+          ],
+          "size_m": [
+            2.4,
+            2,
+            2.2
+          ],
+          "kind": "CARGO",
+          "gross_mass_kg": 950.0,
+          "gross_cg_m": [
+            4.4,
+            -0.5,
+            1.15
+          ]
+        }
+      ],
+      "whole_vehicle_cg_m": null,
+      "access_route_status": "NOT_EVALUATED",
+      "engineering_status": "UNVALIDATED",
+      "release_status": "NOT_RELEASED",
+      "omitted_checks": [
+        "continuous_installation_path",
+        "whole_vehicle_CG_and_inertia",
+        "loads_and_restraints",
+        "human_layout_and_evacuation",
+        "power_thermal_and_mission"
+      ]
+    },
+    {
+      "case_id": "ts_cargo",
+      "vehicle": "TS",
+      "partial_check_status": "PASS_PARTIAL",
+      "failures": [],
+      "payload_gross_mass_kg": 700.0,
+      "cargo_net_kg": 500.0,
+      "payload_cg_m": [
+        2.0,
+        -0.45,
+        1.05
+      ],
+      "payload_cg_window_m": [
+        [
+          1.5,
+          2.5
+        ],
+        [
+          -0.75,
+          -0.15
+        ],
+        [
+          0.7,
+          1.4
+        ]
+      ],
+      "installed_modules": [
+        {
+          "id": "TS-01",
+          "center_m": [
+            2,
+            -0.45,
+            1.05
+          ],
+          "size_m": [
+            2.2,
+            1.8,
+            2
+          ],
+          "kind": "CARGO",
+          "gross_mass_kg": 700.0,
+          "gross_cg_m": [
+            2,
+            -0.45,
+            1.05
+          ]
+        }
+      ],
+      "whole_vehicle_cg_m": null,
+      "access_route_status": "NOT_EVALUATED",
+      "engineering_status": "UNVALIDATED",
+      "release_status": "NOT_RELEASED",
+      "omitted_checks": [
+        "continuous_installation_path",
+        "whole_vehicle_CG_and_inertia",
+        "loads_and_restraints",
+        "human_layout_and_evacuation",
+        "power_thermal_and_mission"
+      ]
+    },
+    {
+      "case_id": "wh_unbalanced_unload",
+      "vehicle": "WH",
+      "partial_check_status": "FAIL",
+      "failures": [
+        "PAYLOAD_CG_Y_OUTSIDE_STUDY_WINDOW"
+      ],
+      "payload_gross_mass_kg": 4400.0,
+      "cargo_net_kg": 3200.0,
+      "payload_cg_m": [
+        5.7,
+        1.0909090909090908,
+        1.15
+      ],
+      "payload_cg_window_m": [
+        [
+          3.7,
+          7.7
+        ],
+        [
+          -0.35,
+          0.35
+        ],
+        [
+          0.8,
+          1.5
+        ]
+      ],
+      "installed_modules": [
+        {
+          "id": "WH-01",
+          "center_m": [
+            1.5,
+            -1.5,
+            1.15
+          ],
+          "size_m": [
+            2.4,
+            2.0,
+            2.2
+          ],
+          "kind": "CARGO",
+          "gross_mass_kg": 150.0,
+          "gross_cg_m": [
+            1.5,
+            -1.5,
+            1.15
+          ]
+        },
+        {
+          "id": "WH-02",
+          "center_m": [
+            1.5,
+            1.5,
+            1.15
+          ],
+          "size_m": [
+            2.4,
+            2.0,
+            2.2
+          ],
+          "kind": "CARGO",
+          "gross_mass_kg": 950.0,
+          "gross_cg_m": [
+            1.5,
+            1.5,
+            1.15
+          ]
+        },
+        {
+          "id": "WH-03",
+          "center_m": [
+            4.3,
+            -1.5,
+            1.15
+          ],
+          "size_m": [
+            2.4,
+            2.0,
+            2.2
+          ],
+          "kind": "CARGO",
+          "gross_mass_kg": 150.0,
+          "gross_cg_m": [
+            4.3,
+            -1.5,
+            1.15
+          ]
+        },
+        {
+          "id": "WH-04",
+          "center_m": [
+            4.3,
+            1.5,
+            1.15
+          ],
+          "size_m": [
+            2.4,
+            2.0,
+            2.2
+          ],
+          "kind": "CARGO",
+          "gross_mass_kg": 950.0,
+          "gross_cg_m": [
+            4.3,
+            1.5,
+            1.15
+          ]
+        },
+        {
+          "id": "WH-05",
+          "center_m": [
+            7.1,
+            -1.5,
+            1.15
+          ],
+          "size_m": [
+            2.4,
+            2.0,
+            2.2
+          ],
+          "kind": "CARGO",
+          "gross_mass_kg": 150.0,
+          "gross_cg_m": [
+            7.1,
+            -1.5,
+            1.15
+          ]
+        },
+        {
+          "id": "WH-06",
+          "center_m": [
+            7.1,
+            1.5,
+            1.15
+          ],
+          "size_m": [
+            2.4,
+            2.0,
+            2.2
+          ],
+          "kind": "CARGO",
+          "gross_mass_kg": 950.0,
+          "gross_cg_m": [
+            7.1,
+            1.5,
+            1.15
+          ]
+        },
+        {
+          "id": "WH-07",
+          "center_m": [
+            9.9,
+            -1.5,
+            1.15
+          ],
+          "size_m": [
+            2.4,
+            2.0,
+            2.2
+          ],
+          "kind": "CARGO",
+          "gross_mass_kg": 150.0,
+          "gross_cg_m": [
+            9.9,
+            -1.5,
+            1.15
+          ]
+        },
+        {
+          "id": "WH-08",
+          "center_m": [
+            9.9,
+            1.5,
+            1.15
+          ],
+          "size_m": [
+            2.4,
+            2.0,
+            2.2
+          ],
+          "kind": "CARGO",
+          "gross_mass_kg": 950.0,
+          "gross_cg_m": [
+            9.9,
+            1.5,
+            1.15
+          ]
+        }
+      ],
+      "whole_vehicle_cg_m": null,
+      "access_route_status": "NOT_EVALUATED",
+      "engineering_status": "UNVALIDATED",
+      "release_status": "NOT_RELEASED",
+      "omitted_checks": [
+        "continuous_installation_path",
+        "whole_vehicle_CG_and_inertia",
+        "loads_and_restraints",
+        "human_layout_and_evacuation",
+        "power_thermal_and_mission"
+      ]
+    }
+  ]
+}

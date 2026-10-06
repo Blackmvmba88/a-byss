@@ -1,7 +1,7 @@
 {
   "name": "A-BYSS / BlackMamba Aerospace",
   "slug": "a-byss",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "updated": "2026-10-06",
   "language": "es",
   "status": "concept-research",
@@ -43,5 +43,12 @@
     "scope": "interior mass and scalar cargo volume only",
     "validation": "arithmetic tests only",
     "flight_capacity_validated": false
+  },
+  "geometry_model": {
+    "catalog": "models/geometry_assumptions.json",
+    "checker": "software/layout_check.py",
+    "scope": "rectangular envelopes, aperture projection and payload-only CG",
+    "whole_vehicle_cg_validated": false,
+    "installation_path_validated": false
   }
 }

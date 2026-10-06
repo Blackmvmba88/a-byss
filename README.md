@@ -6,7 +6,7 @@
 
 Una familia de vehículos especializados para conectar Tierra, atmósfera, órbita y espacio cislunar. A-BYSS coordina recursos y servicios; W-HALE eleva, M-RAY transporta y T-SHARK atiende misiones de respuesta rápida.
 
-**Estado:** definición conceptual P0 · **Versión documental:** 0.3.0 · **Actualización:** 2026-10-06. Repositorio público. Los objetivos de diseño no son prestaciones demostradas; todavía no hay hardware ni simuladores de vuelo validados.
+**Estado:** definición conceptual P0 · **Versión documental:** 0.4.0 · **Actualización:** 2026-10-06. Repositorio público. Los objetivos de diseño no son prestaciones demostradas; todavía no hay hardware ni simuladores de vuelo validados.
 
 ## Familia y capacidades objetivo
 
@@ -39,6 +39,8 @@ Inventario lógico, no plano físico ni balance longitudinal. WH, MR y TS son cl
 
 | Documento | Contenido |
 |---|---|
+| [Geometría y balance](docs/GEOMETRY_AND_BALANCE.md) | Layouts, aperturas y CG del interior |
+| [Diagramas y casos](evidence/P0-021/README.md) | Tres layouts y un caso de descarga desequilibrada |
 | [SIZING_BASELINE.md](docs/SIZING_BASELINE.md) | Hipótesis de masa/volumen, cálculo y límites de uso |
 | [Reporte exploratorio](evidence/P0-022/README.md) | Ocho configuraciones reproducibles; P0-022 sigue abierto |
 | [FLEET.md](docs/vehicles/FLEET.md) | Vehículos, variantes y objetivos de capacidad |
@@ -61,11 +63,22 @@ python3 -m unittest discover -s tests -v
 python3 software/generate_payload_report.py
 ```
 
-Consultar [hipótesis, fórmulas y exclusiones](docs/SIZING_BASELINE.md). El código aplica el margen una vez, descuenta módulos/ocupantes y limita carga por masa local, masa total y volumen. No evalúa todavía CG, estructura, puertas o desempeño de misión.
+Consultar [hipótesis, fórmulas y exclusiones](docs/SIZING_BASELINE.md). El código aplica el margen una vez, descuenta módulos/ocupantes y limita carga por masa local, masa total y volumen. El verificador adicional evalúa cajas, aperturas y CG del interior; siguen pendientes estructura, recorrido de acceso, CG total y desempeño de misión.
+
+## Layouts y balance
+
+![M-RAY mixto conceptual](evidence/P0-021/mr_combi.svg)
+
+```bash
+python3 software/layout_check.py models/layouts/mr_combi.json
+python3 software/generate_layout_report.py
+```
+
+Veinte pruebas de software cubren presupuesto, distribución, colisiones, aperturas y datos inválidos. El caso `wh_unbalanced_unload` falla deliberadamente: descargar un lateral puede sacar el CG del interior de su ventana hipotética aunque reduzca la masa. No se calcula todavía el CG del vehículo completo.
 
 ## Siguiente gate
 
-Dimensionar geometría, acceso, masa vacía, carga bruta, piso, anclajes y servicios por clase. Con la misión y presupuestos cerrados se publicará carga neta en kg por configuración. Ningún requisito está aprobado sólo por estar documentado.
+Validar la geometría candidata, demostrar el recorrido de acceso y derivar límites de masa, piso, anclajes y servicios por clase. Con la misión y presupuestos cerrados se publicará carga neta en kg por configuración. Ningún requisito está aprobado sólo por estar documentado.
 
 ## Participar y citar
 

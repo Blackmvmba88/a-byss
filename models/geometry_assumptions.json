@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "status": "illustrative_unvalidated",
+  "frame": "X aft from forward cabin plane; Y starboard; Z up from floor. Payload interior only.",
+  "vehicles": {
+    "WH": {
+      "interface_class": "WH",
+      "interface_revision": "0.1-study",
+      "module_size_m": [
+        2.4,
+        2.0,
+        2.2
+      ],
+      "cabin_size_m": [
+        11.6,
+        5.2,
+        2.5
+      ],
+      "lateral_aperture_xz_m": [
+        2.6,
+        2.4
+      ],
+      "clearance_m": 0.05,
+      "positions": [
+        {
+          "id": "WH-01",
+          "center_m": [
+            1.5,
+            -1.5,
+            1.15
+          ]
+        },
+        {
+          "id": "WH-02",
+          "center_m": [
+            1.5,
+            1.5,
+            1.15
+          ]
+        },
+        {
+          "id": "WH-03",
+          "center_m": [
+            4.3,
+            -1.5,
+            1.15
+          ]
+        },
+        {
+          "id": "WH-04",
+          "center_m": [
+            4.3,
+            1.5,
+            1.15
+          ]
+        },
+        {
+          "id": "WH-05",
+          "center_m": [
+            7.1,
+            -1.5,
+            1.15
+          ]
+        },
+        {
+          "id": "WH-06",
+          "center_m": [
+            7.1,
+            1.5,
+            1.15
+          ]
+        },
+        {
+          "id": "WH-07",
+          "center_m": [
+            9.9,
+            -1.5,
+            1.15
+          ]
+        },
+        {
+          "id": "WH-08",
+          "center_m": [
+            9.9,
+            1.5,
+            1.15
+          ]
+        }
+      ],
+      "reserved_boxes": [
+        {
+          "id": "aisle",
+          "center_m": [
+            5.8,
+            0,
+            1.25
+          ],
+          "size_m": [
+            11.6,
+            0.8,
+            2.5
+          ]
+        }
+      ],
+      "payload_cg_window_m": [
+        [
+          3.7,
+          7.7
+        ],
+        [
+          -0.35,
+          0.35
+        ],
+        [
+          0.8,
+          1.5
+        ]
+      ]
+    },
+    "MR": {
+      "interface_class": "MR",
+      "interface_revision": "0.1-study",
+      "module_size_m": [
+        2.4,
+        2,
+        2.2
+      ],
+      "cabin_size_m": [
+        6.4,
+        3.2,
+        2.5
+      ],
+      "lateral_aperture_xz_m": [
+        2.6,
+        2.4
+      ],
+      "clearance_m": 0.05,
+      "positions": [
+        {
+          "id": "MR-01",
+          "center_m": [
+            1.6,
+            -0.5,
+            1.15
+          ]
+        },
+        {
+          "id": "MR-02",
+          "center_m": [
+            4.4,
+            -0.5,
+            1.15
+          ]
+        }
+      ],
+      "reserved_boxes": [
+        {
+          "id": "aisle",
+          "center_m": [
+            3.2,
+            1.0,
+            1.25
+          ],
+          "size_m": [
+            6.4,
+            0.8,
+            2.5
+          ]
+        }
+      ],
+      "payload_cg_window_m": [
+        [
+          2.5,
+          3.9
+        ],
+        [
+          -0.8,
+          -0.2
+        ],
+        [
+          0.8,
+          1.5
+        ]
+      ]
+    },
+    "TS": {
+      "interface_class": "TS",
+      "interface_revision": "0.1-study",
+      "module_size_m": [
+        2.2,
+        1.8,
+        2
+      ],
+      "cabin_size_m": [
+        4,
+        3,
+        2.3
+      ],
+      "lateral_aperture_xz_m": [
+        2.4,
+        2.2
+      ],
+      "clearance_m": 0.05,
+      "positions": [
+        {
+          "id": "TS-01",
+          "center_m": [
+            2,
+            -0.45,
+            1.05
+          ]
+        }
+      ],
+      "reserved_boxes": [
+        {
+          "id": "aisle",
+          "center_m": [
+            2,
+            0.95,
+            1.15
+          ],
+          "size_m": [
+            4,
+            0.8,
+            2.3
+          ]
+        }
+      ],
+      "payload_cg_window_m": [
+        [
+          1.5,
+          2.5
+        ],
+        [
+          -0.75,
+          -0.15
+        ],
+        [
+          0.7,
+          1.4
+        ]
+      ]
+    }
+  }
+}

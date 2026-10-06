@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "case_id": "mr_combi",
+  "vehicle": "MR",
+  "interface_revision": "0.1-study",
+  "cargo_density_kg_m3": 100,
+  "assignments": [
+    {
+      "position_id": "MR-01",
+      "kind": "PAX4",
+      "interface_class": "MR",
+      "cargo_fill_fraction": 0,
+      "module_gross_cg_offset_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position_id": "MR-02",
+      "kind": "CARGO",
+      "interface_class": "MR",
+      "cargo_fill_fraction": 1,
+      "module_gross_cg_offset_m": [
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}
