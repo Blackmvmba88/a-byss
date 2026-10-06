@@ -1,6 +1,6 @@
 # ROADMAP — A-BYSS / BlackMamba Aerospace
 
-Versión: 0.1 · Fecha: 2026-10-06 · Estado: propuesta de investigación.
+Versión: 0.2.0 · Fecha: 2026-10-06 · Estado: propuesta de investigación.
 
 > W-HALE lifts, M-RAY travels, T-SHARK moves fast, A-BYSS connects.
 
@@ -68,3 +68,15 @@ Para modificar un umbral: registrar motivo, evidencia, impacto en interfaces y p
 5. Evaluar todos los P0 y emitir una decisión G1 con evidencia reproducible.
 
 Estructura sugerida: `docs/`, `models/`, `interfaces/`, `simulation/`, `research/`, `tests/`, `evidence/` y `decisions/`. Cada informe debe indicar entradas, unidades, versión, método, límites de validez y ubicación de resultados.
+
+## Incremento 0.2.0 — pasajeros y carga modulares
+
+| Fase | Entregable adicional | Dependencia / salida |
+|---|---|---|
+| F0 | Comparativa de variantes WH-T/WH-L, MR y TS; posiciones y ocupación candidatas | PAX-4 es objetivo de estudio; congelar rangos antes de G0 |
+| F1 | IF-11, manifiestos y modelo de capacidad por configuración | Cerrar P0-021…025 para configuración logística seleccionada; capacidad humana sólo conceptual |
+| F2 | Banco de interior y sustitución PAX/CARGO sin ocupantes | Protocolo congelado antes de ensayar; ≥10 ciclos completos, 0 retenciones fallidas no detectadas, informe de tiempo/personas-hora y desgaste |
+| F3 | Integración de detección de módulo y configuración inválida | Ningún módulo incompatible o manifiesto incompleto consigue liberación en catálogo de pruebas |
+| F4–F7 | Demostración según entorno; conversión orbital y variantes humanas posteriores | Gates propios de vuelo, manipulación orbital y supervivencia; no inferirlos del banco de interiores |
+
+Las clases WH/MR/TS se dimensionan de forma separada. Si los objetivos de 32/8/4 plazas no cierran, se revisan junto con posiciones, duración y arquitectura. La licencia de reutilización se elegirá como decisión del titular, sin bloquear el trabajo documental.

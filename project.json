@@ -1,0 +1,40 @@
+{
+  "name": "A-BYSS / BlackMamba Aerospace",
+  "slug": "a-byss",
+  "version": "0.2.0",
+  "updated": "2026-10-06",
+  "language": "es",
+  "status": "concept-research",
+  "scope": "civil modular aerospace research",
+  "repository": "https://github.com/Blackmvmba88/a-byss",
+  "visibility": "public",
+  "maintainer": "Blackmvmba88",
+  "license_status": "undecided",
+  "principle": "W-HALE lifts, M-RAY travels, T-SHARK moves fast, A-BYSS connects.",
+  "baseline": {
+    "first_gate": "P0 uncrewed logistics",
+    "passenger_module_seats_target": 4,
+    "capacities_validated": false,
+    "cargo_capacity_kg": null
+  },
+  "vehicles": [
+    {
+      "name": "W-HALE-T",
+      "interface_class": "WH",
+      "module_positions_target": 8,
+      "passenger_seats_target": 32
+    },
+    {
+      "name": "M-RAY",
+      "interface_class": "MR",
+      "module_positions_target": 2,
+      "passenger_seats_target": 8
+    },
+    {
+      "name": "T-SHARK",
+      "interface_class": "TS",
+      "module_positions_target": 1,
+      "passenger_seats_target": 4
+    }
+  ]
+}

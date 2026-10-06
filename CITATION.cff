@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Cita este repositorio e indica el commit consultado al utilizar la arquitectura conceptual."
+title: "A-BYSS / BlackMamba Aerospace"
+authors:
+  - name: "BlackMamba Aerospace"
+type: software
+version: 0.2.0
+date-released: 2026-10-06
+url: "https://github.com/Blackmvmba88/a-byss"
+repository-code: "https://github.com/Blackmvmba88/a-byss"
+abstract: "Documentación de investigación aeroespacial civil: arquitectura, roadmap, interiores pasajeros/carga y requisitos P0."
+keywords:
+  - aerospace
+  - systems engineering
+  - modular payload
+  - orbital logistics

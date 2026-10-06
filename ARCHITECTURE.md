@@ -1,6 +1,6 @@
 # ARCHITECTURE — A-BYSS / BlackMamba Aerospace
 
-Versión: 0.1 · Fecha: 2026-10-06 · Estado: arquitectura candidata de investigación civil.
+Versión: 0.2.0 · Fecha: 2026-10-06 · Estado: arquitectura candidata de investigación civil.
 
 > W-HALE lifts, M-RAY travels, T-SHARK moves fast, A-BYSS connects.
 
@@ -76,6 +76,8 @@ Cada ICD (Interface Control Document) registra propietario en ambos extremos, ve
 | IF-09 | Robótica ↔ módulo/carga | Grapple, cargas, volumen barrido, herramientas y parada | Zona excluida, objetivo autorizado y actitud estable |
 | IF-10 | Hábitat futuro ↔ vehículo/hub | Presión, atmósfera, escotillas, contaminación y evacuación | Integridad y compatibilidad acreditadas; no se infiere de docking de carga |
 
+La interfaz adicional **IF-11** conecta posición de misión e interior PAX-4/CARGO/SERVICE; su contrato se define en [IF-11_MODULAR_CABIN.md](interfaces/IF-11_MODULAR_CABIN.md). No reemplaza IF-05/06/08/10.
+
 No todos los puertos transportan fluidos, calor o personas. Usar perfiles de servicio declarados: carga, inspección, repostaje y, posteriormente, tripulación. IF-07 debe ser específico por recurso.
 
 ## 5. Subsistemas transversales
@@ -121,3 +123,13 @@ La redundancia se analiza incluyendo causas comunes: alimentación, sensores, so
 Órbita, masas, número de vehículos, propelente, potencia, distancias de separación, dimensiones de puerto y capacidades lunares permanecen por decidir en G0/G1. Las opciones se comparan con supuestos comunes. Mantener un registro ADR por decisión, vinculado a requisito, interfaz y evidencia.
 
 La evidencia se organiza como `evidence/<ID>/<revision>/`: entradas, modelo, versión, resultados, incertidumbres y revisión. Las propuestas de umbrales están en [P0_REQUIREMENTS.md](P0_REQUIREMENTS.md); la secuencia de maduración está en [ROADMAP.md](ROADMAP.md).
+
+## 9. Familia e interiores reconfigurables
+
+La propuesta 0.2.0 estudia cuatro plazas por módulo y clases físicas WH, MR y TS. W-HALE-T dispone conceptualmente de ocho posiciones, M-RAY de dos y T-SHARK de una: objetivos de 32, 8 y 4 plazas, sin incluir tripulación operativa externa al módulo. Los valores son hipótesis de dimensionamiento; masa, geometría y servicios aún no cierran.
+
+PAX, CARGO y COMBI describen configuraciones interiores. La estructura primaria, casco presurizado y sistemas de vuelo permanecen fijos. W-HALE-L de lanzamiento es una variante específica; no se obtiene por retirar asientos de WH-T. M-RAY y T-SHARK mantienen identidad orbital y no adquieren vuelo atmosférico por incorporar personas.
+
+La conversión inicial se limita a tierra. Cada cambio actualiza manifiesto, masa, CG/inercia, consumibles y evidencias, y requiere liberación de configuración. Las variantes humanas se estudian conceptualmente y requieren su programa posterior; el primer gate sigue siendo logístico sin tripulación.
+
+Consultar [familia](docs/vehicles/FLEET.md), [módulos](docs/MODULAR_PAYLOAD.md) y [ADR-001](decisions/ADR-001-modular-payload.md). La carga neta en kg depende de la misión y de todos los límites, no de contar asientos retirados.

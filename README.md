@@ -1,38 +1,60 @@
 # A-BYSS / BlackMamba Aerospace
 
+**Infraestructura aeroespacial civil · Arquitectura modular · Investigación**
+
 > W-HALE lifts, M-RAY travels, T-SHARK moves fast, A-BYSS connects.
 
-Infraestructura aeroespacial civil, modular y de investigación para conectar Tierra, atmósfera, órbita y espacio cislunar.
+Una familia de vehículos especializados para conectar Tierra, atmósfera, órbita y espacio cislunar. A-BYSS coordina recursos y servicios; W-HALE eleva, M-RAY transporta y T-SHARK atiende misiones de respuesta rápida.
 
-**Estado:** arquitectura conceptual, versión 0.1. Los umbrales iniciales son propuestas pendientes de validación.
+**Estado:** definición conceptual P0 · **Versión documental:** 0.2.0 · **Actualización:** 2026-10-06. Repositorio público. Los objetivos de diseño no son prestaciones demostradas; todavía no hay hardware ni simuladores de vuelo validados.
 
-## Familia
+## Familia y capacidades objetivo
 
-| Plataforma | Función |
-|---|---|
-| W-HALE | Transporte atmosférico pesado y entrega de carga o etapa de lanzamiento. |
-| M-RAY | Transporte orbital y cislunar. |
-| T-SHARK | Inspección, servicio y logística de respuesta rápida. |
-| A-BYSS | Hub orbital modular de conexión, recursos y mantenimiento. |
+| Plataforma | Entorno y misión | Interior de referencia propuesto | Configuraciones |
+|---|---|---|---|
+| W-HALE-T | Aeronave atmosférica de transporte | 8 posiciones WH; hasta 32 plazas objetivo | PAX / CARGO / COMBI |
+| W-HALE-L | Portador atmosférico de etapa de lanzamiento | Integración específica de carga/etapa | LAUNCH; no se asume combinación con pasajeros |
+| M-RAY | Transporte orbital/cislunar | 2 posiciones MR; hasta 8 plazas objetivo | PAX / CARGO / COMBI |
+| T-SHARK | Inspección y logística orbital rápida | 1 posición TS; hasta 4 plazas objetivo | PAX / CARGO / SERVICE |
+| A-BYSS | Hub orbital de recursos y mantenimiento | Puertos y zonas de servicio compatibles | Recepción, almacenamiento y mantenimiento |
 
-Una etapa de lanzamiento externa realiza la inserción orbital. El transporte humano, el descenso lunar, la gravedad artificial y la fabricación orbital son extensiones sujetas a programas de validación propios.
+**Cuatro asientos por módulo** es la base para estudiar interiores; la tripulación operativa, si existe, se contabiliza aparte. Posiciones, geometría y capacidad están por validar. La carga en kg depende de masa, volumen, ruta, duración, reservas, sujeciones y servicios.
+
+El primer P0 sigue siendo logístico y sin tripulación. Los interiores humanos se estudian como variantes futuras. W-HALE necesita una etapa externa para llegar a órbita; M-RAY y T-SHARK no se presuponen aeronaves atmosféricas por tener asientos.
+
+## Asientos ↔ carga
+
+Estructura y sistemas de vuelo permanentes, interior de misión intercambiable. Cada posición compatible recibe PAX-4, CARGO o SERVICE; se combinan dentro de configuraciones verificadas.
+
+```text
+W-HALE transporte: [P4][P4][P4][P4][P4][P4][P4][P4] → 32 plazas objetivo
+W-HALE mixto:      [P4][P4][P4][P4][ C][ C][ C][ C] → 16 plazas + carga
+M-RAY mixto:       [P4][ C]                         →  4 plazas + carga
+T-SHARK carga:     [ C]                            → carga rápida
+```
+
+Inventario lógico, no plano físico ni balance longitudinal. WH, MR y TS son clases distintas: comparten manifiesto y lógica; su compatibilidad mecánica debe demostrarse. Conversión inicial en tierra, sin ocupantes, con inspección y liberación posteriores.
 
 ## Documentación
 
-- [ROADMAP.md](ROADMAP.md): fases, entregables, gates y dependencias.
-- [ARCHITECTURE.md](ARCHITECTURE.md): subsistemas, interfaces, modos y límites de seguridad.
-- [P0_REQUIREMENTS.md](P0_REQUIREMENTS.md): veinte requisitos iniciales medibles y criterios de salida.
+| Documento | Contenido |
+|---|---|
+| [FLEET.md](docs/vehicles/FLEET.md) | Vehículos, variantes y objetivos de capacidad |
+| [MODULAR_PAYLOAD.md](docs/MODULAR_PAYLOAD.md) | Catálogo, layouts, cálculo y procedimiento de conversión |
+| [IF-11](interfaces/IF-11_MODULAR_CABIN.md) | Contrato entre posición y módulo |
+| [ARCHITECTURE.md](ARCHITECTURE.md) | Sistema, interfaces y modos |
+| [ROADMAP.md](ROADMAP.md) | Fases, entregables, gates y dependencias |
+| [P0_REQUIREMENTS.md](P0_REQUIREMENTS.md) | 25 requisitos propuestos |
+| [ADR-001](decisions/ADR-001-modular-payload.md) | Justificación de la unidad de cuatro plazas |
+| [Fuentes](docs/REFERENCES.md) | Referencias primarias y límites de uso |
+| [CHANGELOG.md](CHANGELOG.md) | Evolución documental |
 
-## Primera iteración
+## Siguiente gate
 
-1. Asignar responsables de misión, sistemas, modelos y verificación.
-2. Fijar una misión logística sin tripulación y una alternativa convencional.
-3. Cerrar presupuestos enlazados de masa, delta-v, potencia y calor.
-4. Registrar las decisiones y la evidencia de cada requisito P0.
-5. Revisar el gate G1 antes de avanzar a prototipos representativos.
+Dimensionar geometría, acceso, masa vacía, carga bruta, piso, anclajes y servicios por clase. Con la misión y presupuestos cerrados se publicará carga neta en kg por configuración. Ningún requisito está aprobado sólo por estar documentado.
 
-Los cambios de requisitos deben conservar su justificación, impacto, versión y evidencia. Cada resultado debe documentar entradas, unidades, método, incertidumbre y límites de validez.
+## Participar y citar
 
-## Organización futura
+Usar [issues](https://github.com/Blackmvmba88/a-byss/issues), [CONTRIBUTING.md](CONTRIBUTING.md) y la plantilla de pull request. Metadata: [project.json](project.json). Cita: [CITATION.cff](CITATION.cff).
 
-Crear `models/`, `simulation/`, `interfaces/`, `tests/`, `evidence/` y `decisions/` conforme existan contenidos. Actualmente el repositorio contiene la base documental; no incluye simuladores ni hardware validado.
+**Licencia:** pendiente de elección del titular; el proyecto todavía no declara una licencia de reutilización. La publicación no se presenta como concesión de una licencia open source. No se atribuyen certificaciones, DOI ni afiliaciones institucionales.
