@@ -1,7 +1,7 @@
 {
   "name": "A-BYSS / BlackMamba Aerospace",
   "slug": "a-byss",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "updated": "2026-10-06",
   "language": "es",
   "status": "concept-research",
@@ -36,5 +36,12 @@
       "module_positions_target": 1,
       "passenger_seats_target": 4
     }
-  ]
+  ],
+  "exploratory_model": {
+    "catalog": "models/module_assumptions.json",
+    "calculator": "software/payload_budget.py",
+    "scope": "interior mass and scalar cargo volume only",
+    "validation": "arithmetic tests only",
+    "flight_capacity_validated": false
+  }
 }

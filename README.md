@@ -6,7 +6,7 @@
 
 Una familia de vehículos especializados para conectar Tierra, atmósfera, órbita y espacio cislunar. A-BYSS coordina recursos y servicios; W-HALE eleva, M-RAY transporta y T-SHARK atiende misiones de respuesta rápida.
 
-**Estado:** definición conceptual P0 · **Versión documental:** 0.2.0 · **Actualización:** 2026-10-06. Repositorio público. Los objetivos de diseño no son prestaciones demostradas; todavía no hay hardware ni simuladores de vuelo validados.
+**Estado:** definición conceptual P0 · **Versión documental:** 0.3.0 · **Actualización:** 2026-10-06. Repositorio público. Los objetivos de diseño no son prestaciones demostradas; todavía no hay hardware ni simuladores de vuelo validados.
 
 ## Familia y capacidades objetivo
 
@@ -39,6 +39,8 @@ Inventario lógico, no plano físico ni balance longitudinal. WH, MR y TS son cl
 
 | Documento | Contenido |
 |---|---|
+| [SIZING_BASELINE.md](docs/SIZING_BASELINE.md) | Hipótesis de masa/volumen, cálculo y límites de uso |
+| [Reporte exploratorio](evidence/P0-022/README.md) | Ocho configuraciones reproducibles; P0-022 sigue abierto |
 | [FLEET.md](docs/vehicles/FLEET.md) | Vehículos, variantes y objetivos de capacidad |
 | [MODULAR_PAYLOAD.md](docs/MODULAR_PAYLOAD.md) | Catálogo, layouts, cálculo y procedimiento de conversión |
 | [IF-11](interfaces/IF-11_MODULAR_CABIN.md) | Contrato entre posición y módulo |
@@ -48,6 +50,18 @@ Inventario lógico, no plano físico ni balance longitudinal. WH, MR y TS son cl
 | [ADR-001](decisions/ADR-001-modular-payload.md) | Justificación de la unidad de cuatro plazas |
 | [Fuentes](docs/REFERENCES.md) | Referencias primarias y límites de uso |
 | [CHANGELOG.md](CHANGELOG.md) | Evolución documental |
+
+## Calculador exploratorio
+
+Modelo Python sin dependencias externas para comparar masa y volumen del interior. Todas las asignaciones son hipotéticas; el resultado no es capacidad de vuelo ni liberación de configuración.
+
+```bash
+python3 software/payload_budget.py --vehicle MR --pax-modules 1 --cargo-density 100
+python3 -m unittest discover -s tests -v
+python3 software/generate_payload_report.py
+```
+
+Consultar [hipótesis, fórmulas y exclusiones](docs/SIZING_BASELINE.md). El código aplica el margen una vez, descuenta módulos/ocupantes y limita carga por masa local, masa total y volumen. No evalúa todavía CG, estructura, puertas o desempeño de misión.
 
 ## Siguiente gate
 

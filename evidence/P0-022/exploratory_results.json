@@ -1,0 +1,277 @@
+{
+  "evidence_type": "partial_arithmetic_only",
+  "requirement_status": "OPEN",
+  "input_and_code_sha256": {
+    "models/module_assumptions.json": "def9aec4cfdaa457f01af689bdd437286de1d44655676653507ac364ecce246a",
+    "software/payload_budget.py": "8859d6997c54b434de97c58a87136de3f218588e99f4893eaa811ad87e138fb7",
+    "software/generate_payload_report.py": "06ddffa88300e2dc953ecb45881970eed3a6cbf13cd3e7bd10d31d055e2c0099"
+  },
+  "results": [
+    {
+      "vehicle": "W-HALE-T",
+      "pax_modules": 8,
+      "cargo_modules": 0,
+      "passenger_places_target": 32,
+      "cargo_density_kg_m3": 100,
+      "cargo_net_upper_bound_kg": 0.0,
+      "cargo_per_module_kg": 0.0,
+      "installed_payload_gross_kg": 5840.0,
+      "mass_allocation_after_margin_kg": 8000.0,
+      "unused_mass_allocation_kg": 2160.0,
+      "cargo_volume_used_m3": 0.0,
+      "cargo_bounds_kg": {
+        "local_mass": 0.0,
+        "total_mass": 2160.0,
+        "volume_at_density": 0
+      },
+      "binding_constraints": [],
+      "calculation_scope": "illustrative interior mass and bulk volume only",
+      "engineering_status": "UNVALIDATED",
+      "release_status": "NOT_RELEASED",
+      "omitted_checks": [
+        "whole_vehicle_mass",
+        "CG_and_inertia",
+        "loads_and_restraints",
+        "door_and_packing_geometry",
+        "power_and_thermal",
+        "mission_and_propellant",
+        "crew_and_common_services",
+        "human_survival_and_evacuation"
+      ]
+    },
+    {
+      "vehicle": "W-HALE-T",
+      "pax_modules": 4,
+      "cargo_modules": 4,
+      "passenger_places_target": 16,
+      "cargo_density_kg_m3": 100,
+      "cargo_net_upper_bound_kg": 3200,
+      "cargo_per_module_kg": 800.0,
+      "installed_payload_gross_kg": 6720,
+      "mass_allocation_after_margin_kg": 8000.0,
+      "unused_mass_allocation_kg": 1280.0,
+      "cargo_volume_used_m3": 32.0,
+      "cargo_bounds_kg": {
+        "local_mass": 3400.0,
+        "total_mass": 4480.0,
+        "volume_at_density": 3200
+      },
+      "binding_constraints": [
+        "volume_at_density"
+      ],
+      "calculation_scope": "illustrative interior mass and bulk volume only",
+      "engineering_status": "UNVALIDATED",
+      "release_status": "NOT_RELEASED",
+      "omitted_checks": [
+        "whole_vehicle_mass",
+        "CG_and_inertia",
+        "loads_and_restraints",
+        "door_and_packing_geometry",
+        "power_and_thermal",
+        "mission_and_propellant",
+        "crew_and_common_services",
+        "human_survival_and_evacuation"
+      ]
+    },
+    {
+      "vehicle": "W-HALE-T",
+      "pax_modules": 0,
+      "cargo_modules": 8,
+      "passenger_places_target": 0,
+      "cargo_density_kg_m3": 100,
+      "cargo_net_upper_bound_kg": 6400,
+      "cargo_per_module_kg": 800.0,
+      "installed_payload_gross_kg": 7600,
+      "mass_allocation_after_margin_kg": 8000.0,
+      "unused_mass_allocation_kg": 400.0,
+      "cargo_volume_used_m3": 64.0,
+      "cargo_bounds_kg": {
+        "local_mass": 6800.0,
+        "total_mass": 6800.0,
+        "volume_at_density": 6400
+      },
+      "binding_constraints": [
+        "volume_at_density"
+      ],
+      "calculation_scope": "illustrative interior mass and bulk volume only",
+      "engineering_status": "UNVALIDATED",
+      "release_status": "NOT_RELEASED",
+      "omitted_checks": [
+        "whole_vehicle_mass",
+        "CG_and_inertia",
+        "loads_and_restraints",
+        "door_and_packing_geometry",
+        "power_and_thermal",
+        "mission_and_propellant",
+        "crew_and_common_services",
+        "human_survival_and_evacuation"
+      ]
+    },
+    {
+      "vehicle": "M-RAY",
+      "pax_modules": 2,
+      "cargo_modules": 0,
+      "passenger_places_target": 8,
+      "cargo_density_kg_m3": 100,
+      "cargo_net_upper_bound_kg": 0.0,
+      "cargo_per_module_kg": 0.0,
+      "installed_payload_gross_kg": 1860.0,
+      "mass_allocation_after_margin_kg": 2400.0,
+      "unused_mass_allocation_kg": 540.0,
+      "cargo_volume_used_m3": 0.0,
+      "cargo_bounds_kg": {
+        "local_mass": 0.0,
+        "total_mass": 540.0,
+        "volume_at_density": 0
+      },
+      "binding_constraints": [],
+      "calculation_scope": "illustrative interior mass and bulk volume only",
+      "engineering_status": "UNVALIDATED",
+      "release_status": "NOT_RELEASED",
+      "omitted_checks": [
+        "whole_vehicle_mass",
+        "CG_and_inertia",
+        "loads_and_restraints",
+        "door_and_packing_geometry",
+        "power_and_thermal",
+        "mission_and_propellant",
+        "crew_and_common_services",
+        "human_survival_and_evacuation"
+      ]
+    },
+    {
+      "vehicle": "M-RAY",
+      "pax_modules": 1,
+      "cargo_modules": 1,
+      "passenger_places_target": 4,
+      "cargo_density_kg_m3": 100,
+      "cargo_net_upper_bound_kg": 700,
+      "cargo_per_module_kg": 700.0,
+      "installed_payload_gross_kg": 1880,
+      "mass_allocation_after_margin_kg": 2400.0,
+      "unused_mass_allocation_kg": 520.0,
+      "cargo_volume_used_m3": 7.0,
+      "cargo_bounds_kg": {
+        "local_mass": 950.0,
+        "total_mass": 1220.0,
+        "volume_at_density": 700
+      },
+      "binding_constraints": [
+        "volume_at_density"
+      ],
+      "calculation_scope": "illustrative interior mass and bulk volume only",
+      "engineering_status": "UNVALIDATED",
+      "release_status": "NOT_RELEASED",
+      "omitted_checks": [
+        "whole_vehicle_mass",
+        "CG_and_inertia",
+        "loads_and_restraints",
+        "door_and_packing_geometry",
+        "power_and_thermal",
+        "mission_and_propellant",
+        "crew_and_common_services",
+        "human_survival_and_evacuation"
+      ]
+    },
+    {
+      "vehicle": "M-RAY",
+      "pax_modules": 0,
+      "cargo_modules": 2,
+      "passenger_places_target": 0,
+      "cargo_density_kg_m3": 100,
+      "cargo_net_upper_bound_kg": 1400,
+      "cargo_per_module_kg": 700.0,
+      "installed_payload_gross_kg": 1900,
+      "mass_allocation_after_margin_kg": 2400.0,
+      "unused_mass_allocation_kg": 500.0,
+      "cargo_volume_used_m3": 14.0,
+      "cargo_bounds_kg": {
+        "local_mass": 1900.0,
+        "total_mass": 1900.0,
+        "volume_at_density": 1400
+      },
+      "binding_constraints": [
+        "volume_at_density"
+      ],
+      "calculation_scope": "illustrative interior mass and bulk volume only",
+      "engineering_status": "UNVALIDATED",
+      "release_status": "NOT_RELEASED",
+      "omitted_checks": [
+        "whole_vehicle_mass",
+        "CG_and_inertia",
+        "loads_and_restraints",
+        "door_and_packing_geometry",
+        "power_and_thermal",
+        "mission_and_propellant",
+        "crew_and_common_services",
+        "human_survival_and_evacuation"
+      ]
+    },
+    {
+      "vehicle": "T-SHARK",
+      "pax_modules": 1,
+      "cargo_modules": 0,
+      "passenger_places_target": 4,
+      "cargo_density_kg_m3": 100,
+      "cargo_net_upper_bound_kg": 0.0,
+      "cargo_per_module_kg": 0.0,
+      "installed_payload_gross_kg": 820.0,
+      "mass_allocation_after_margin_kg": 1000.0,
+      "unused_mass_allocation_kg": 180.0,
+      "cargo_volume_used_m3": 0.0,
+      "cargo_bounds_kg": {
+        "local_mass": 0.0,
+        "total_mass": 180.0,
+        "volume_at_density": 0
+      },
+      "binding_constraints": [],
+      "calculation_scope": "illustrative interior mass and bulk volume only",
+      "engineering_status": "UNVALIDATED",
+      "release_status": "NOT_RELEASED",
+      "omitted_checks": [
+        "whole_vehicle_mass",
+        "CG_and_inertia",
+        "loads_and_restraints",
+        "door_and_packing_geometry",
+        "power_and_thermal",
+        "mission_and_propellant",
+        "crew_and_common_services",
+        "human_survival_and_evacuation"
+      ]
+    },
+    {
+      "vehicle": "T-SHARK",
+      "pax_modules": 0,
+      "cargo_modules": 1,
+      "passenger_places_target": 0,
+      "cargo_density_kg_m3": 100,
+      "cargo_net_upper_bound_kg": 500,
+      "cargo_per_module_kg": 500.0,
+      "installed_payload_gross_kg": 700,
+      "mass_allocation_after_margin_kg": 1000.0,
+      "unused_mass_allocation_kg": 300.0,
+      "cargo_volume_used_m3": 5.0,
+      "cargo_bounds_kg": {
+        "local_mass": 800.0,
+        "total_mass": 800.0,
+        "volume_at_density": 500
+      },
+      "binding_constraints": [
+        "volume_at_density"
+      ],
+      "calculation_scope": "illustrative interior mass and bulk volume only",
+      "engineering_status": "UNVALIDATED",
+      "release_status": "NOT_RELEASED",
+      "omitted_checks": [
+        "whole_vehicle_mass",
+        "CG_and_inertia",
+        "loads_and_restraints",
+        "door_and_packing_geometry",
+        "power_and_thermal",
+        "mission_and_propellant",
+        "crew_and_common_services",
+        "human_survival_and_evacuation"
+      ]
+    }
+  ]
+}

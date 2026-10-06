@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.0 — 2026-10-06
+
+- Catálogo JSON de asignaciones hipotéticas de masa y volumen por clase.
+- Calculador reproducible de interiores PAX/CARGO, sin dependencias externas.
+- Ocho pruebas de aritmética, límites y entradas inválidas.
+- Ocho configuraciones exploratorias y hashes de entradas/código en evidencia parcial P0-022.
+- Documentación explícita del alcance estático; misión, CG y seguridad de configuración pendientes.
+
 ## 0.2.0 — 2026-10-06
 
 - Publicación pública, descripción y temas de GitHub.

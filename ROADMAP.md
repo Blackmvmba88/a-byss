@@ -80,3 +80,7 @@ Estructura sugerida: `docs/`, `models/`, `interfaces/`, `simulation/`, `research
 | F4–F7 | Demostración según entorno; conversión orbital y variantes humanas posteriores | Gates propios de vuelo, manipulación orbital y supervivencia; no inferirlos del banco de interiores |
 
 Las clases WH/MR/TS se dimensionan de forma separada. Si los objetivos de 32/8/4 plazas no cierran, se revisan junto con posiciones, duración y arquitectura. La licencia de reutilización se elegirá como decisión del titular, sin bloquear el trabajo documental.
+
+## Incremento 0.3.0 — cálculo exploratorio
+
+Disponible un [presupuesto de interiores](docs/SIZING_BASELINE.md) reproducible con ocho casos y pruebas aritméticas. Es preparación de F0/F1: todavía no define misión, geometría o límites derivados de ingeniería, y no acredita G0/G1. La evidencia parcial está en [P0-022](evidence/P0-022/README.md).

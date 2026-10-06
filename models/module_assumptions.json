@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "status": "illustrative_unvalidated",
+  "datum": "Payload interior only; not a whole-vehicle mass budget",
+  "person_and_baggage_kg": 120,
+  "vehicles": {
+    "WH": {"name": "W-HALE-T", "positions": 8, "gross_limit_per_position_kg": 1250, "gross_payload_limit_kg": 10000, "mass_margin_fraction": 0.2, "pax_module_empty_kg": 250, "pax_module_incremental_supplies_kg": 0, "cargo_module_empty_kg": 150, "cargo_usable_volume_m3": 8},
+    "MR": {"name": "M-RAY", "positions": 2, "gross_limit_per_position_kg": 1500, "gross_payload_limit_kg": 3000, "mass_margin_fraction": 0.2, "pax_module_empty_kg": 350, "pax_module_incremental_supplies_kg": 100, "cargo_module_empty_kg": 250, "cargo_usable_volume_m3": 7},
+    "TS": {"name": "T-SHARK", "positions": 1, "gross_limit_per_position_kg": 1250, "gross_payload_limit_kg": 1250, "mass_margin_fraction": 0.2, "pax_module_empty_kg": 300, "pax_module_incremental_supplies_kg": 40, "cargo_module_empty_kg": 200, "cargo_usable_volume_m3": 5}
+  }
+}
