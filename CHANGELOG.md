@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.8.0 — 2026-10-07
+
+- Candidato B con densidad 6061 trazable y referencia provisional M8 clase 8.8.
+- Comparación de precarga 2500/5000 N, envolvente axial de perno y límites algebraicos abiertos.
+- Procedencia distingue PDF leído de tabla indexada cuyo enlace devolvió 404.
+- Cinco pruebas adicionales: 48 aprobadas. Resistencia combinada, montaje y vida siguen pendientes.
+
 ## 0.7.0 — 2026-10-07
 
 - Tres variantes paramétricas de anclaje IF-11, con masas parciales y plano esquemático SVG.

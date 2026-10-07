@@ -1,0 +1,1767 @@
+{
+  "variants": [
+    {
+      "id": "B-P2500",
+      "partial_mass_kg": 0.18525173474663967,
+      "cases": [
+        {
+          "tension_N": 4000,
+          "torque_Nm": 0,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.1,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.5142857142857142,
+            "values": {
+              "linear_clamp_reserve_N": 3400.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 0.0,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 4000,
+          "torque_Nm": 0,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.2,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.45714285714285713,
+            "values": {
+              "linear_clamp_reserve_N": 3800.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 0.0,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 4000,
+          "torque_Nm": 0,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.3,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.4,
+            "values": {
+              "linear_clamp_reserve_N": 4200.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 0.0,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 4000,
+          "torque_Nm": 0,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.1,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.36,
+            "values": {
+              "linear_clamp_reserve_N": 6400.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 0.0,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 4000,
+          "torque_Nm": 0,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.2,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.32,
+            "values": {
+              "linear_clamp_reserve_N": 6800.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 0.0,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 4000,
+          "torque_Nm": 0,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.3,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.28,
+            "values": {
+              "linear_clamp_reserve_N": 7200.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 0.0,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 4000,
+          "torque_Nm": 40,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.1,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.5142857142857142,
+            "values": {
+              "linear_clamp_reserve_N": 3400.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 202.03050891044217,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 4000,
+          "torque_Nm": 40,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.2,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.45714285714285713,
+            "values": {
+              "linear_clamp_reserve_N": 3800.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 202.03050891044217,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 4000,
+          "torque_Nm": 40,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.3,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.4,
+            "values": {
+              "linear_clamp_reserve_N": 4200.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 202.03050891044217,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 4000,
+          "torque_Nm": 40,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.1,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.36,
+            "values": {
+              "linear_clamp_reserve_N": 6400.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 202.03050891044217,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 4000,
+          "torque_Nm": 40,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.2,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.32,
+            "values": {
+              "linear_clamp_reserve_N": 6800.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 202.03050891044217,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 4000,
+          "torque_Nm": 40,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.3,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.28,
+            "values": {
+              "linear_clamp_reserve_N": 7200.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 202.03050891044217,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 4000,
+          "torque_Nm": 80,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.1,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.5142857142857142,
+            "values": {
+              "linear_clamp_reserve_N": 3400.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 404.06101782088433,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 4000,
+          "torque_Nm": 80,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.2,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.45714285714285713,
+            "values": {
+              "linear_clamp_reserve_N": 3800.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 404.06101782088433,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 4000,
+          "torque_Nm": 80,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.3,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.4,
+            "values": {
+              "linear_clamp_reserve_N": 4200.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 404.06101782088433,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 4000,
+          "torque_Nm": 80,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.1,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.36,
+            "values": {
+              "linear_clamp_reserve_N": 6400.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 404.06101782088433,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 4000,
+          "torque_Nm": 80,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.2,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.32,
+            "values": {
+              "linear_clamp_reserve_N": 6800.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 404.06101782088433,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 4000,
+          "torque_Nm": 80,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.3,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.28,
+            "values": {
+              "linear_clamp_reserve_N": 7200.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 404.06101782088433,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 8000,
+          "torque_Nm": 0,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.1,
+          "separation": {
+            "status": "AT_OR_ABOVE_LIMIT",
+            "utilization": 1.0285714285714285,
+            "values": {
+              "linear_clamp_reserve_N": -200.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 0.0,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 8000,
+          "torque_Nm": 0,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.2,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.9142857142857143,
+            "values": {
+              "linear_clamp_reserve_N": 600.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 0.0,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 8000,
+          "torque_Nm": 0,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.3,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.8,
+            "values": {
+              "linear_clamp_reserve_N": 1400.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 0.0,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 8000,
+          "torque_Nm": 0,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.1,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.72,
+            "values": {
+              "linear_clamp_reserve_N": 2800.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 0.0,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 8000,
+          "torque_Nm": 0,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.2,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.64,
+            "values": {
+              "linear_clamp_reserve_N": 3600.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 0.0,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 8000,
+          "torque_Nm": 0,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.3,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.56,
+            "values": {
+              "linear_clamp_reserve_N": 4400.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 0.0,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 8000,
+          "torque_Nm": 40,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.1,
+          "separation": {
+            "status": "AT_OR_ABOVE_LIMIT",
+            "utilization": 1.0285714285714285,
+            "values": {
+              "linear_clamp_reserve_N": -200.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 202.03050891044217,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 8000,
+          "torque_Nm": 40,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.2,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.9142857142857143,
+            "values": {
+              "linear_clamp_reserve_N": 600.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 202.03050891044217,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 8000,
+          "torque_Nm": 40,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.3,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.8,
+            "values": {
+              "linear_clamp_reserve_N": 1400.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 202.03050891044217,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 8000,
+          "torque_Nm": 40,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.1,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.72,
+            "values": {
+              "linear_clamp_reserve_N": 2800.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 202.03050891044217,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 8000,
+          "torque_Nm": 40,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.2,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.64,
+            "values": {
+              "linear_clamp_reserve_N": 3600.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 202.03050891044217,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 8000,
+          "torque_Nm": 40,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.3,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.56,
+            "values": {
+              "linear_clamp_reserve_N": 4400.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 202.03050891044217,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 8000,
+          "torque_Nm": 80,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.1,
+          "separation": {
+            "status": "AT_OR_ABOVE_LIMIT",
+            "utilization": 1.0285714285714285,
+            "values": {
+              "linear_clamp_reserve_N": -200.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 404.06101782088433,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 8000,
+          "torque_Nm": 80,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.2,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.9142857142857143,
+            "values": {
+              "linear_clamp_reserve_N": 600.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 404.06101782088433,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 8000,
+          "torque_Nm": 80,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.3,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.8,
+            "values": {
+              "linear_clamp_reserve_N": 1400.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 404.06101782088433,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 8000,
+          "torque_Nm": 80,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.1,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.72,
+            "values": {
+              "linear_clamp_reserve_N": 2800.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 404.06101782088433,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 8000,
+          "torque_Nm": 80,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.2,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.64,
+            "values": {
+              "linear_clamp_reserve_N": 3600.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 404.06101782088433,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 8000,
+          "torque_Nm": 80,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.3,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.56,
+            "values": {
+              "linear_clamp_reserve_N": 4400.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 404.06101782088433,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 12000,
+          "torque_Nm": 0,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.1,
+          "separation": {
+            "status": "AT_OR_ABOVE_LIMIT",
+            "utilization": 1.542857142857143,
+            "values": {
+              "linear_clamp_reserve_N": -3800.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 0.0,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 12000,
+          "torque_Nm": 0,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.2,
+          "separation": {
+            "status": "AT_OR_ABOVE_LIMIT",
+            "utilization": 1.3714285714285714,
+            "values": {
+              "linear_clamp_reserve_N": -2600.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 0.0,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 12000,
+          "torque_Nm": 0,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.3,
+          "separation": {
+            "status": "AT_OR_ABOVE_LIMIT",
+            "utilization": 1.2,
+            "values": {
+              "linear_clamp_reserve_N": -1400.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 0.0,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 12000,
+          "torque_Nm": 0,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.1,
+          "separation": {
+            "status": "AT_OR_ABOVE_LIMIT",
+            "utilization": 1.08,
+            "values": {
+              "linear_clamp_reserve_N": -800.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 0.0,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 12000,
+          "torque_Nm": 0,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.2,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.96,
+            "values": {
+              "linear_clamp_reserve_N": 400.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 0.0,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 12000,
+          "torque_Nm": 0,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.3,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.84,
+            "values": {
+              "linear_clamp_reserve_N": 1600.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 0.0,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 12000,
+          "torque_Nm": 40,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.1,
+          "separation": {
+            "status": "AT_OR_ABOVE_LIMIT",
+            "utilization": 1.542857142857143,
+            "values": {
+              "linear_clamp_reserve_N": -3800.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 202.03050891044217,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 12000,
+          "torque_Nm": 40,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.2,
+          "separation": {
+            "status": "AT_OR_ABOVE_LIMIT",
+            "utilization": 1.3714285714285714,
+            "values": {
+              "linear_clamp_reserve_N": -2600.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 202.03050891044217,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 12000,
+          "torque_Nm": 40,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.3,
+          "separation": {
+            "status": "AT_OR_ABOVE_LIMIT",
+            "utilization": 1.2,
+            "values": {
+              "linear_clamp_reserve_N": -1400.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 202.03050891044217,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 12000,
+          "torque_Nm": 40,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.1,
+          "separation": {
+            "status": "AT_OR_ABOVE_LIMIT",
+            "utilization": 1.08,
+            "values": {
+              "linear_clamp_reserve_N": -800.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 202.03050891044217,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 12000,
+          "torque_Nm": 40,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.2,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.96,
+            "values": {
+              "linear_clamp_reserve_N": 400.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 202.03050891044217,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 12000,
+          "torque_Nm": 40,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.3,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.84,
+            "values": {
+              "linear_clamp_reserve_N": 1600.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 202.03050891044217,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 12000,
+          "torque_Nm": 80,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.1,
+          "separation": {
+            "status": "AT_OR_ABOVE_LIMIT",
+            "utilization": 1.542857142857143,
+            "values": {
+              "linear_clamp_reserve_N": -3800.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 404.06101782088433,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 12000,
+          "torque_Nm": 80,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.2,
+          "separation": {
+            "status": "AT_OR_ABOVE_LIMIT",
+            "utilization": 1.3714285714285714,
+            "values": {
+              "linear_clamp_reserve_N": -2600.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 404.06101782088433,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 12000,
+          "torque_Nm": 80,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.3,
+          "separation": {
+            "status": "AT_OR_ABOVE_LIMIT",
+            "utilization": 1.2,
+            "values": {
+              "linear_clamp_reserve_N": -1400.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 404.06101782088433,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 12000,
+          "torque_Nm": 80,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.1,
+          "separation": {
+            "status": "AT_OR_ABOVE_LIMIT",
+            "utilization": 1.08,
+            "values": {
+              "linear_clamp_reserve_N": -800.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 404.06101782088433,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 12000,
+          "torque_Nm": 80,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.2,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.96,
+            "values": {
+              "linear_clamp_reserve_N": 400.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 404.06101782088433,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 12000,
+          "torque_Nm": 80,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.3,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.84,
+            "values": {
+              "linear_clamp_reserve_N": 1600.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 404.06101782088433,
+          "shear_capacity_status": "INCOMPLETE"
+        }
+      ],
+      "separation_limit_cases": 15,
+      "worst_separation_utilization": 1.542857142857143,
+      "upper_preload_per_bolt_N": 3000.0,
+      "upper_envelope_bolt_tension_N": 3900.0,
+      "bolt_tension_to_provisional_proof_ratio": 0.18396226415094338,
+      "bolt_tension_status": "PROVISIONAL_REFERENCE_ONLY"
+    },
+    {
+      "id": "B-P5000",
+      "partial_mass_kg": 0.18525173474663967,
+      "cases": [
+        {
+          "tension_N": 4000,
+          "torque_Nm": 0,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.1,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.2571428571428571,
+            "values": {
+              "linear_clamp_reserve_N": 10400.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 0.0,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 4000,
+          "torque_Nm": 0,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.2,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.22857142857142856,
+            "values": {
+              "linear_clamp_reserve_N": 10800.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 0.0,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 4000,
+          "torque_Nm": 0,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.3,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.2,
+            "values": {
+              "linear_clamp_reserve_N": 11200.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 0.0,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 4000,
+          "torque_Nm": 0,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.1,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.18,
+            "values": {
+              "linear_clamp_reserve_N": 16400.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 0.0,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 4000,
+          "torque_Nm": 0,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.2,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.16,
+            "values": {
+              "linear_clamp_reserve_N": 16800.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 0.0,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 4000,
+          "torque_Nm": 0,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.3,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.14,
+            "values": {
+              "linear_clamp_reserve_N": 17200.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 0.0,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 4000,
+          "torque_Nm": 40,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.1,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.2571428571428571,
+            "values": {
+              "linear_clamp_reserve_N": 10400.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 202.03050891044217,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 4000,
+          "torque_Nm": 40,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.2,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.22857142857142856,
+            "values": {
+              "linear_clamp_reserve_N": 10800.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 202.03050891044217,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 4000,
+          "torque_Nm": 40,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.3,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.2,
+            "values": {
+              "linear_clamp_reserve_N": 11200.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 202.03050891044217,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 4000,
+          "torque_Nm": 40,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.1,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.18,
+            "values": {
+              "linear_clamp_reserve_N": 16400.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 202.03050891044217,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 4000,
+          "torque_Nm": 40,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.2,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.16,
+            "values": {
+              "linear_clamp_reserve_N": 16800.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 202.03050891044217,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 4000,
+          "torque_Nm": 40,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.3,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.14,
+            "values": {
+              "linear_clamp_reserve_N": 17200.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 202.03050891044217,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 4000,
+          "torque_Nm": 80,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.1,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.2571428571428571,
+            "values": {
+              "linear_clamp_reserve_N": 10400.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 404.06101782088433,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 4000,
+          "torque_Nm": 80,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.2,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.22857142857142856,
+            "values": {
+              "linear_clamp_reserve_N": 10800.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 404.06101782088433,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 4000,
+          "torque_Nm": 80,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.3,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.2,
+            "values": {
+              "linear_clamp_reserve_N": 11200.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 404.06101782088433,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 4000,
+          "torque_Nm": 80,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.1,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.18,
+            "values": {
+              "linear_clamp_reserve_N": 16400.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 404.06101782088433,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 4000,
+          "torque_Nm": 80,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.2,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.16,
+            "values": {
+              "linear_clamp_reserve_N": 16800.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 404.06101782088433,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 4000,
+          "torque_Nm": 80,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.3,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.14,
+            "values": {
+              "linear_clamp_reserve_N": 17200.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 404.06101782088433,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 8000,
+          "torque_Nm": 0,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.1,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.5142857142857142,
+            "values": {
+              "linear_clamp_reserve_N": 6800.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 0.0,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 8000,
+          "torque_Nm": 0,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.2,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.45714285714285713,
+            "values": {
+              "linear_clamp_reserve_N": 7600.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 0.0,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 8000,
+          "torque_Nm": 0,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.3,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.4,
+            "values": {
+              "linear_clamp_reserve_N": 8400.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 0.0,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 8000,
+          "torque_Nm": 0,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.1,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.36,
+            "values": {
+              "linear_clamp_reserve_N": 12800.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 0.0,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 8000,
+          "torque_Nm": 0,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.2,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.32,
+            "values": {
+              "linear_clamp_reserve_N": 13600.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 0.0,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 8000,
+          "torque_Nm": 0,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.3,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.28,
+            "values": {
+              "linear_clamp_reserve_N": 14400.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 0.0,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 8000,
+          "torque_Nm": 40,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.1,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.5142857142857142,
+            "values": {
+              "linear_clamp_reserve_N": 6800.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 202.03050891044217,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 8000,
+          "torque_Nm": 40,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.2,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.45714285714285713,
+            "values": {
+              "linear_clamp_reserve_N": 7600.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 202.03050891044217,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 8000,
+          "torque_Nm": 40,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.3,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.4,
+            "values": {
+              "linear_clamp_reserve_N": 8400.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 202.03050891044217,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 8000,
+          "torque_Nm": 40,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.1,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.36,
+            "values": {
+              "linear_clamp_reserve_N": 12800.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 202.03050891044217,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 8000,
+          "torque_Nm": 40,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.2,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.32,
+            "values": {
+              "linear_clamp_reserve_N": 13600.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 202.03050891044217,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 8000,
+          "torque_Nm": 40,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.3,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.28,
+            "values": {
+              "linear_clamp_reserve_N": 14400.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 202.03050891044217,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 8000,
+          "torque_Nm": 80,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.1,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.5142857142857142,
+            "values": {
+              "linear_clamp_reserve_N": 6800.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 404.06101782088433,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 8000,
+          "torque_Nm": 80,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.2,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.45714285714285713,
+            "values": {
+              "linear_clamp_reserve_N": 7600.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 404.06101782088433,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 8000,
+          "torque_Nm": 80,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.3,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.4,
+            "values": {
+              "linear_clamp_reserve_N": 8400.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 404.06101782088433,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 8000,
+          "torque_Nm": 80,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.1,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.36,
+            "values": {
+              "linear_clamp_reserve_N": 12800.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 404.06101782088433,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 8000,
+          "torque_Nm": 80,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.2,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.32,
+            "values": {
+              "linear_clamp_reserve_N": 13600.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 404.06101782088433,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 8000,
+          "torque_Nm": 80,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.3,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.28,
+            "values": {
+              "linear_clamp_reserve_N": 14400.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 404.06101782088433,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 12000,
+          "torque_Nm": 0,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.1,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.7714285714285715,
+            "values": {
+              "linear_clamp_reserve_N": 3200.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 0.0,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 12000,
+          "torque_Nm": 0,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.2,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.6857142857142857,
+            "values": {
+              "linear_clamp_reserve_N": 4400.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 0.0,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 12000,
+          "torque_Nm": 0,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.3,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.6,
+            "values": {
+              "linear_clamp_reserve_N": 5600.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 0.0,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 12000,
+          "torque_Nm": 0,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.1,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.54,
+            "values": {
+              "linear_clamp_reserve_N": 9200.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 0.0,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 12000,
+          "torque_Nm": 0,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.2,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.48,
+            "values": {
+              "linear_clamp_reserve_N": 10400.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 0.0,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 12000,
+          "torque_Nm": 0,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.3,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.42,
+            "values": {
+              "linear_clamp_reserve_N": 11600.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 0.0,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 12000,
+          "torque_Nm": 40,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.1,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.7714285714285715,
+            "values": {
+              "linear_clamp_reserve_N": 3200.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 202.03050891044217,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 12000,
+          "torque_Nm": 40,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.2,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.6857142857142857,
+            "values": {
+              "linear_clamp_reserve_N": 4400.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 202.03050891044217,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 12000,
+          "torque_Nm": 40,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.3,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.6,
+            "values": {
+              "linear_clamp_reserve_N": 5600.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 202.03050891044217,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 12000,
+          "torque_Nm": 40,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.1,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.54,
+            "values": {
+              "linear_clamp_reserve_N": 9200.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 202.03050891044217,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 12000,
+          "torque_Nm": 40,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.2,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.48,
+            "values": {
+              "linear_clamp_reserve_N": 10400.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 202.03050891044217,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 12000,
+          "torque_Nm": 40,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.3,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.42,
+            "values": {
+              "linear_clamp_reserve_N": 11600.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 202.03050891044217,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 12000,
+          "torque_Nm": 80,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.1,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.7714285714285715,
+            "values": {
+              "linear_clamp_reserve_N": 3200.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 404.06101782088433,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 12000,
+          "torque_Nm": 80,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.2,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.6857142857142857,
+            "values": {
+              "linear_clamp_reserve_N": 4400.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 404.06101782088433,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 12000,
+          "torque_Nm": 80,
+          "retained_preload_fraction": 0.7,
+          "stiffness_fraction": 0.3,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.6,
+            "values": {
+              "linear_clamp_reserve_N": 5600.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 404.06101782088433,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 12000,
+          "torque_Nm": 80,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.1,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.54,
+            "values": {
+              "linear_clamp_reserve_N": 9200.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 404.06101782088433,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 12000,
+          "torque_Nm": 80,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.2,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.48,
+            "values": {
+              "linear_clamp_reserve_N": 10400.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 404.06101782088433,
+          "shear_capacity_status": "INCOMPLETE"
+        },
+        {
+          "tension_N": 12000,
+          "torque_Nm": 80,
+          "retained_preload_fraction": 1.0,
+          "stiffness_fraction": 0.3,
+          "separation": {
+            "status": "BELOW_INPUT_LIMIT",
+            "utilization": 0.42,
+            "values": {
+              "linear_clamp_reserve_N": 11600.0
+            },
+            "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded."
+          },
+          "torque_only_shear_per_bolt_N": 404.06101782088433,
+          "shear_capacity_status": "INCOMPLETE"
+        }
+      ],
+      "separation_limit_cases": 0,
+      "worst_separation_utilization": 0.7714285714285715,
+      "upper_preload_per_bolt_N": 6000.0,
+      "upper_envelope_bolt_tension_N": 6900.0,
+      "bolt_tension_to_provisional_proof_ratio": 0.32547169811320753,
+      "bolt_tension_status": "PROVISIONAL_REFERENCE_ONLY"
+    }
+  ],
+  "release_status": "NOT_RELEASED",
+  "scope": "Axial preload envelope only; pure torque demands retained without combined acceptance.",
+  "reference_preload_bounds_N": {
+    "strict_lower_for_no_axial_opening": 3857.1428571428573,
+    "strict_upper_for_bolt_tension_below_provisional_proof": 16916.666666666668,
+    "nonempty": true,
+    "status": "MODEL_ENVELOPE_NOT_INSTALLATION_SPEC"
+  },
+  "candidate": "B-6061-M8-study",
+  "source_status": "INDEXED_CATALOG_PROVISIONAL",
+  "combined_load_status": "INCOMPLETE"
+}

@@ -1,0 +1,9 @@
+{
+  "models/mechanics/if11_variants.json": "90ee4218ba5ce04dc427ff9412f1441d97e38d5774266a62f17e2a7ea856df5a",
+  "models/mechanics/if11_candidate.json": "c77ee9a8a624962ca3e35fbe34eddaac85f6e399365eea74ac644823dfa9c459",
+  "software/if11_candidate.py": "24c0a76aa623bc3e6c576cbc6ec548402e937dcee0190601dc336b333aa26986",
+  "software/if11_trade.py": "c254d2fbb3305b1f841a21adda4b46ff43ca7f79bc8dd9e665a706d06110032a",
+  "software/mechanical_screen.py": "70d21292dbade90960b0eaabd70faf20ba01c85fcee6b1ecf4e0ed52986d59ad",
+  "evidence/IF-11/candidate/results.json": "70c0bd07e9ce7b7cd8f9cd0af70802844e492c39377d931cf6d82fa13d2f2b92",
+  "evidence/IF-11/candidate/README.md": "6e86df4676d3c1e40f21636ff426c7e4de9888100e84937576c5605265d11f07"
+}

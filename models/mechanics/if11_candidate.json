@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "candidate": "B-6061-M8-study",
+  "plate": {"material": "6061-T6 candidate, room-temperature research only", "density_kg_m3": 2700, "source_id": "KAISER-6061"},
+  "fastener": {"designation": "M8 coarse, class 8.8 candidate; SKU, length, finish and lot pending", "proof_load_reference_N": 21200, "source_id": "BOSSARD-INDEX", "evidence_status": "INDEXED_CATALOG_PROVISIONAL"},
+  "reference_preload_options_N": [2500, 5000],
+  "upper_preload_multiplier": 1.2,
+  "sources": {
+    "KAISER-6061": {"url": "https://online.kaiseraluminum.com/depot/PublicProductInformation/Document/1015/Kaiser_Aluminum_6061_Sheet_Coil_and_Plate.pdf", "revision": "05/06", "locator": "page 2, nominal density at 20 C", "accessed": "2026-10-07", "evidence": "PDF read; 2.70 Mg/m3 converted to 2700 kg/m3; nominal property, not lot certificate"},
+    "BOSSARD-INDEX": {"url": "https://www.bossard.com/global-en/-/media/bossard-group/website/documents/technical-resources/en/f-004-en.pdf", "revision": "F-en-2023.05 in indexed result", "locator": "Proof loads of screws, M8 row, class 8.8 column", "accessed": "2026-10-07", "evidence": "Primary publisher search index shows 21200 N; live PDF returned 404. Full document/footnotes and supplier certificate still required. Provisional reference only."}
+  }
+}

@@ -46,3 +46,7 @@ python3 -m unittest discover -s tests
 Referencia metodológica: [NASA Fastener Design Manual, RP-1228](https://ntrs.nasa.gov/api/citations/19900009424/downloads/19900009424.pdf), para precarga y reparto de cargas en grupos de fijaciones. Los números de esta comparación son propios e hipotéticos; no son datos extraídos del manual.
 
 G0/G1 y P0-021/022 siguen abiertos. El estudio aporta geometría paramétrica y demanda exploratoria, no compatibilidad aprobada.
+
+## Continuación 0.8.0
+
+[Material y precarga candidatos](IF11_CANDIDATE.md) conserva B y compara dos precargas sin reescribir los resultados históricos. La referencia de resistencia del perno es provisional.
