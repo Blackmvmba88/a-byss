@@ -1,0 +1,186 @@
+{
+  "type": "CompositePart",
+  "name": "ABYSS-CARGO-MR-001",
+  "position": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "properties": {},
+  "parts": [
+    {
+      "type": "Cube",
+      "name": "CARGO-MR-BASE",
+      "position": [
+        4.4,
+        -0.5,
+        0.06999999999999984
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        2.4,
+        2.0,
+        0.04
+      ],
+      "material": {
+        "color": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ]
+      },
+      "size": 1
+    },
+    {
+      "type": "Cube",
+      "name": "CARGO-MR-TOP",
+      "position": [
+        4.4,
+        -0.5,
+        2.23
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        2.4,
+        2.0,
+        0.04
+      ],
+      "material": {
+        "color": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ]
+      },
+      "size": 1
+    },
+    {
+      "type": "Cube",
+      "name": "CARGO-MR-PORT",
+      "position": [
+        4.4,
+        -1.48,
+        1.15
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        2.4,
+        0.04,
+        2.12
+      ],
+      "material": {
+        "color": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ]
+      },
+      "size": 1
+    },
+    {
+      "type": "Cube",
+      "name": "CARGO-MR-STARBOARD",
+      "position": [
+        4.4,
+        0.48,
+        1.15
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        2.4,
+        0.04,
+        2.12
+      ],
+      "material": {
+        "color": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ]
+      },
+      "size": 1
+    },
+    {
+      "type": "Cube",
+      "name": "CARGO-MR-FORE",
+      "position": [
+        3.2200000000000006,
+        -0.5,
+        1.15
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.04,
+        1.92,
+        2.12
+      ],
+      "material": {
+        "color": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ]
+      },
+      "size": 1
+    },
+    {
+      "type": "Cube",
+      "name": "CARGO-MR-AFT",
+      "position": [
+        5.58,
+        -0.5,
+        1.15
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.04,
+        1.92,
+        2.12
+      ],
+      "material": {
+        "color": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ]
+      },
+      "size": 1
+    }
+  ],
+  "connections": []
+}

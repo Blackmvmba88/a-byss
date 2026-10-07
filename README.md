@@ -6,7 +6,7 @@
 
 Una familia de vehículos especializados para conectar Tierra, atmósfera, órbita y espacio cislunar. A-BYSS coordina recursos y servicios; W-HALE eleva, M-RAY transporta y T-SHARK atiende misiones de respuesta rápida.
 
-**Estado:** definición conceptual P0 · **Versión documental:** 0.4.0 · **Actualización:** 2026-10-06. Repositorio público. Los objetivos de diseño no son prestaciones demostradas; todavía no hay hardware ni simuladores de vuelo validados.
+**Estado:** definición conceptual P0 · **Versión documental:** 0.5.0 · **Actualización:** 2026-10-07. Repositorio público. Los objetivos de diseño no son prestaciones demostradas; todavía no hay hardware ni simuladores de vuelo validados.
 
 ## Familia y capacidades objetivo
 
@@ -39,6 +39,8 @@ Inventario lógico, no plano físico ni balance longitudinal. WH, MR y TS son cl
 
 | Documento | Contenido |
 |---|---|
+| [Puente Mamba3D](docs/MAMBA3D_BRIDGE.md) | 3defect → Blender → medición de retorno |
+| [CARGO-MR editable](assets/cargo-mr/README.md) | Primer .blend, GLB y preview generados |
 | [Geometría y balance](docs/GEOMETRY_AND_BALANCE.md) | Layouts, aperturas y CG del interior |
 | [Diagramas y casos](evidence/P0-021/README.md) | Tres layouts y un caso de descarga desequilibrada |
 | [SIZING_BASELINE.md](docs/SIZING_BASELINE.md) | Hipótesis de masa/volumen, cálculo y límites de uso |
@@ -75,6 +77,16 @@ python3 software/generate_layout_report.py
 ```
 
 Veinte pruebas de software cubren presupuesto, distribución, colisiones, aperturas y datos inválidos. El caso `wh_unbalanced_unload` falla deliberadamente: descargar un lateral puede sacar el CG del interior de su ventana hipotética aunque reduzca la masa. No se calcula todavía el CG del vehículo completo.
+
+## Bridge 3D ejecutable
+
+![CARGO-MR conceptual en corte](assets/cargo-mr/cargo-mr-preview.png)
+
+```bash
+python3 bridges/run_cargo_mr.py --provider /ruta/al/checkout/3defect
+```
+
+El puente convierte la geometría de A-BYSS al contrato Mamba3D, usa las primitivas de 3defect, genera Blender/GLB y reabre el `.blend` en otro proceso para medir dimensiones y referencias. [Contrato y límites](docs/MAMBA3D_BRIDGE.md). La medición digital no acredita fabricación ni operación.
 
 ## Siguiente gate
 

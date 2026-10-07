@@ -1,0 +1,380 @@
+{
+  "schema_version": "1.0",
+  "asset_id": "ABYSS-CARGO-MR-001",
+  "revision": "A-study",
+  "stage": "prototype",
+  "units": "m",
+  "blueprint": {
+    "id": "ABYSS-GEOMETRY-MR",
+    "revision": "0.1-study",
+    "source": "models/geometry_assumptions.json"
+  },
+  "parts": [
+    {
+      "part_id": "CARGO-MR-BASE",
+      "name": "CARGO-MR-BASE",
+      "revision": "A-study",
+      "status": "in_progress",
+      "source": "generated",
+      "material": null,
+      "dimensions": {
+        "x": {
+          "target": 2.4,
+          "tolerance": 1e-05,
+          "measured": 2.3999998569488525,
+          "status": "pass"
+        },
+        "y": {
+          "target": 2,
+          "tolerance": 1e-05,
+          "measured": 2.0,
+          "status": "pass"
+        },
+        "z": {
+          "target": 0.04,
+          "tolerance": 1e-05,
+          "measured": 0.04000000283122063,
+          "status": "pass"
+        }
+      },
+      "interfaces": [
+        {
+          "id": "IF-11-MR-01",
+          "mate": null,
+          "position_tolerance": 1e-05,
+          "angle_tolerance_deg": 0.001,
+          "status": "unknown"
+        },
+        {
+          "id": "IF-11-MR-02",
+          "mate": null,
+          "position_tolerance": 1e-05,
+          "angle_tolerance_deg": 0.001,
+          "status": "unknown"
+        },
+        {
+          "id": "IF-11-MR-03",
+          "mate": null,
+          "position_tolerance": 1e-05,
+          "angle_tolerance_deg": 0.001,
+          "status": "unknown"
+        },
+        {
+          "id": "IF-11-MR-04",
+          "mate": null,
+          "position_tolerance": 1e-05,
+          "angle_tolerance_deg": 0.001,
+          "status": "unknown"
+        }
+      ],
+      "center_m": [
+        4.4,
+        -0.5,
+        0.06999999999999984
+      ],
+      "geometry_family": "box",
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part_id": "CARGO-MR-TOP",
+      "name": "CARGO-MR-TOP",
+      "revision": "A-study",
+      "status": "in_progress",
+      "source": "generated",
+      "material": null,
+      "dimensions": {
+        "x": {
+          "target": 2.4,
+          "tolerance": 1e-05,
+          "measured": 2.3999998569488525,
+          "status": "pass"
+        },
+        "y": {
+          "target": 2,
+          "tolerance": 1e-05,
+          "measured": 2.0,
+          "status": "pass"
+        },
+        "z": {
+          "target": 0.04,
+          "tolerance": 1e-05,
+          "measured": 0.039999961853027344,
+          "status": "pass"
+        }
+      },
+      "interfaces": [],
+      "center_m": [
+        4.4,
+        -0.5,
+        2.23
+      ],
+      "geometry_family": "box",
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part_id": "CARGO-MR-PORT",
+      "name": "CARGO-MR-PORT",
+      "revision": "A-study",
+      "status": "in_progress",
+      "source": "generated",
+      "material": null,
+      "dimensions": {
+        "x": {
+          "target": 2.4,
+          "tolerance": 1e-05,
+          "measured": 2.3999998569488525,
+          "status": "pass"
+        },
+        "y": {
+          "target": 0.04,
+          "tolerance": 1e-05,
+          "measured": 0.039999961853027344,
+          "status": "pass"
+        },
+        "z": {
+          "target": 2.12,
+          "tolerance": 1e-05,
+          "measured": 2.120000034570694,
+          "status": "pass"
+        }
+      },
+      "interfaces": [],
+      "center_m": [
+        4.4,
+        -1.48,
+        1.15
+      ],
+      "geometry_family": "box",
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part_id": "CARGO-MR-STARBOARD",
+      "name": "CARGO-MR-STARBOARD",
+      "revision": "A-study",
+      "status": "in_progress",
+      "source": "generated",
+      "material": null,
+      "dimensions": {
+        "x": {
+          "target": 2.4,
+          "tolerance": 1e-05,
+          "measured": 2.3999998569488525,
+          "status": "pass"
+        },
+        "y": {
+          "target": 0.04,
+          "tolerance": 1e-05,
+          "measured": 0.03999999165534973,
+          "status": "pass"
+        },
+        "z": {
+          "target": 2.12,
+          "tolerance": 1e-05,
+          "measured": 2.120000034570694,
+          "status": "pass"
+        }
+      },
+      "interfaces": [],
+      "center_m": [
+        4.4,
+        0.48,
+        1.15
+      ],
+      "geometry_family": "box",
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part_id": "CARGO-MR-FORE",
+      "name": "CARGO-MR-FORE",
+      "revision": "A-study",
+      "status": "in_progress",
+      "source": "generated",
+      "material": null,
+      "dimensions": {
+        "x": {
+          "target": 0.04,
+          "tolerance": 1e-05,
+          "measured": 0.039999961853027344,
+          "status": "pass"
+        },
+        "y": {
+          "target": 1.92,
+          "tolerance": 1e-05,
+          "measured": 1.920000046491623,
+          "status": "pass"
+        },
+        "z": {
+          "target": 2.12,
+          "tolerance": 1e-05,
+          "measured": 2.120000034570694,
+          "status": "pass"
+        }
+      },
+      "interfaces": [],
+      "center_m": [
+        3.2200000000000006,
+        -0.5,
+        1.15
+      ],
+      "geometry_family": "box",
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part_id": "CARGO-MR-AFT",
+      "name": "CARGO-MR-AFT",
+      "revision": "A-study",
+      "status": "in_progress",
+      "source": "generated",
+      "material": null,
+      "dimensions": {
+        "x": {
+          "target": 0.04,
+          "tolerance": 1e-05,
+          "measured": 0.039999961853027344,
+          "status": "pass"
+        },
+        "y": {
+          "target": 1.92,
+          "tolerance": 1e-05,
+          "measured": 1.920000046491623,
+          "status": "pass"
+        },
+        "z": {
+          "target": 2.12,
+          "tolerance": 1e-05,
+          "measured": 2.120000034570694,
+          "status": "pass"
+        }
+      },
+      "interfaces": [],
+      "center_m": [
+        5.58,
+        -0.5,
+        1.15
+      ],
+      "geometry_family": "box",
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "validation": {
+    "dimensions": "pass",
+    "interfaces": "unknown",
+    "assembly": "unknown",
+    "closed_geometry": "unknown"
+  },
+  "exports": [
+    "blend",
+    "glb",
+    "png",
+    "json"
+  ],
+  "manufacturing": {
+    "ready": false,
+    "process": null,
+    "material_spec": null,
+    "evidence": []
+  },
+  "bridge": {
+    "version": 1,
+    "source_geometry_sha256": "c804611d476f2806b2a16578e7ab9b2e3f7271c63bd3d5a095a50ddb18f1cc7e",
+    "envelope_m": [
+      2.4,
+      2,
+      2.2
+    ],
+    "position_m": [
+      4.4,
+      -0.5,
+      1.15
+    ],
+    "sockets": [
+      {
+        "id": "IF-11-MR-01",
+        "position_m": [
+          3.24,
+          -1.46,
+          0.04999999999999982
+        ],
+        "rotation_rad": [
+          0,
+          0,
+          0
+        ],
+        "status": "unknown"
+      },
+      {
+        "id": "IF-11-MR-02",
+        "position_m": [
+          3.24,
+          0.45999999999999996,
+          0.04999999999999982
+        ],
+        "rotation_rad": [
+          0,
+          0,
+          0
+        ],
+        "status": "unknown"
+      },
+      {
+        "id": "IF-11-MR-03",
+        "position_m": [
+          5.5600000000000005,
+          -1.46,
+          0.04999999999999982
+        ],
+        "rotation_rad": [
+          0,
+          0,
+          0
+        ],
+        "status": "unknown"
+      },
+      {
+        "id": "IF-11-MR-04",
+        "position_m": [
+          5.5600000000000005,
+          0.45999999999999996,
+          0.04999999999999982
+        ],
+        "rotation_rad": [
+          0,
+          0,
+          0
+        ],
+        "status": "unknown"
+      }
+    ],
+    "visual_panel_thickness_m": 0.04,
+    "digital_tolerance_m": 1e-05,
+    "frame": "A-BYSS interior X aft, Y starboard, Z up; Blender XYZ unchanged",
+    "release_status": "NOT_RELEASED",
+    "note": "Concept mesh; thickness and sockets are not structural specifications",
+    "digital_placement_check": "pass",
+    "measurement_sha256": "962eadb8f3c3f25cbcc03bd60e4995f4c02db0dd4c82ce5d617c4b64dcdbb310"
+  }
+}

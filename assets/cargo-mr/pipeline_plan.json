@@ -1,0 +1,147 @@
+{
+  "asset_id": "ABYSS-CARGO-MR-001",
+  "revision": "A-study",
+  "stage": "concept",
+  "contract_valid": true,
+  "contract_errors": [],
+  "steps": [
+    {
+      "key": "contract",
+      "description": "Validate blueprint, BOM, dimensions, tolerances and maturity state",
+      "capabilities": [
+        "validation"
+      ],
+      "providers": [
+        "core"
+      ],
+      "repositories": [
+        "Blackmvmba88/3defect"
+      ],
+      "status": "planned"
+    },
+    {
+      "key": "geometry",
+      "description": "Generate or ingest the canonical geometry",
+      "capabilities": [
+        "geometry",
+        "procedural_geometry",
+        "surface_generation"
+      ],
+      "providers": [
+        "core",
+        "architecture",
+        "patronaje"
+      ],
+      "repositories": [
+        "Blackmvmba88/3defect",
+        "Blackmvmba88/mamba-architecture",
+        "Blackmvmba88/Patronaje"
+      ],
+      "status": "planned"
+    },
+    {
+      "key": "measure",
+      "description": "Measure generated geometry against declared dimensions/tolerances",
+      "capabilities": [
+        "dimensional_validation",
+        "validation"
+      ],
+      "providers": [
+        "ocarina",
+        "core"
+      ],
+      "repositories": [
+        "Blackmvmba88/ocarine",
+        "Blackmvmba88/3defect"
+      ],
+      "status": "planned"
+    },
+    {
+      "key": "assemble",
+      "description": "Resolve part interfaces, sockets and deterministic assembly",
+      "capabilities": [
+        "assembly",
+        "sockets"
+      ],
+      "providers": [
+        "assembly"
+      ],
+      "repositories": [
+        "Blackmvmba88/weaponassambly"
+      ],
+      "status": "planned"
+    },
+    {
+      "key": "dcc",
+      "description": "Build/inspect the production scene in Blender or a compatible DCC",
+      "capabilities": [
+        "blender_automation",
+        "blender"
+      ],
+      "providers": [
+        "xarvis_blender",
+        "core",
+        "circuit",
+        "rod_forge"
+      ],
+      "repositories": [
+        "Blackmvmba88/XarvisCore",
+        "Blackmvmba88/3defect",
+        "Blackmvmba88/circuit",
+        "Blackmvmba88/BlackMamba-Rod-Forge"
+      ],
+      "status": "planned"
+    },
+    {
+      "key": "render",
+      "description": "Produce deterministic preview/product renders",
+      "capabilities": [
+        "render",
+        "product_render",
+        "gpu_render"
+      ],
+      "providers": [
+        "core",
+        "xarvis_blender",
+        "wave3d"
+      ],
+      "repositories": [
+        "Blackmvmba88/3defect",
+        "Blackmvmba88/XarvisCore",
+        "Blackmvmba88/3dwave"
+      ],
+      "status": "planned"
+    },
+    {
+      "key": "export",
+      "description": "Export delivery/runtime geometry",
+      "capabilities": [
+        "export",
+        "gltf",
+        "glb",
+        "stl",
+        "obj",
+        "fbx"
+      ],
+      "providers": [
+        "core",
+        "architecture",
+        "circuit",
+        "xarvis_blender",
+        "patronaje",
+        "ocarina",
+        "avion"
+      ],
+      "repositories": [
+        "Blackmvmba88/3defect",
+        "Blackmvmba88/mamba-architecture",
+        "Blackmvmba88/circuit",
+        "Blackmvmba88/XarvisCore",
+        "Blackmvmba88/Patronaje",
+        "Blackmvmba88/ocarine",
+        "Blackmvmba88/Avion"
+      ],
+      "status": "planned"
+    }
+  ]
+}

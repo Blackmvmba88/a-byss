@@ -6,3 +6,7 @@ __pycache__/
 .env.*
 !.env.example
 work/
+
+# Blender automatic backups
+*.blend1
+*.blend2

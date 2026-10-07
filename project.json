@@ -1,8 +1,8 @@
 {
   "name": "A-BYSS / BlackMamba Aerospace",
   "slug": "a-byss",
-  "version": "0.4.0",
-  "updated": "2026-10-06",
+  "version": "0.5.0",
+  "updated": "2026-10-07",
   "language": "es",
   "status": "concept-research",
   "scope": "civil modular aerospace research",
@@ -50,5 +50,13 @@
     "scope": "rectangular envelopes, aperture projection and payload-only CG",
     "whole_vehicle_cg_validated": false,
     "installation_path_validated": false
+  },
+  "modeling_bridge": {
+    "entrypoint": "bridges/run_cargo_mr.py",
+    "provider": "https://github.com/Blackmvmba88/3defect",
+    "case": "CARGO-MR",
+    "artifacts": "assets/cargo-mr",
+    "evidence": "evidence/bridge-cargo-mr",
+    "manufacturing_ready": false
   }
 }

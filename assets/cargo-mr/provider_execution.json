@@ -1,0 +1,72 @@
+{
+  "repository": "https://github.com/Blackmvmba88/3defect",
+  "commit": "ece85722d3bcb98b718900b79e8544c5cd7decde",
+  "files_sha256": {
+    "defect3d/__init__.py": "d13851c1a5c04ce8be49e281268e5b1e35381e416eea1c8c566d036611ee4f11",
+    "defect3d/__main__.py": "ff9cd96a2fe78712b450c1d9d894bc917b9b1c8abd651f11c316ddaa0b707668",
+    "defect3d/ai/__init__.py": "56a5072175763621be4c8a4fa70f89e52338ec75df83344b06ecc88cc2821743",
+    "defect3d/ai/architect.py": "e13fc5a7e4fac98f5e43436f650693ca36e022a459b45e578ece7d61068e0169",
+    "defect3d/ai/blueprints.py": "d9ec962ab3b8e8762fc9218ddfd1babb48a3b0530decf4b83714ecba1d6eb40e",
+    "defect3d/architecture/__init__.py": "a7cb5bf677d464612f50cf4dc0096aef015a414fecc2f0f19cb81062c5a0362f",
+    "defect3d/architecture/biomimetic_mesh.py": "ea200e20a23254fe989793b50738f49e2c1a79c4b2c36a5adc1e668d329db621",
+    "defect3d/architecture/blender_integration.py": "8edcef3dffed5b1b701551b467cdc5979123c6f46ffebb80c3ccb4e847e2d675",
+    "defect3d/architecture/exoskeleton.py": "5b40d14e2ff0e1d81ccfda290c64123a3c3e72f5c8aa4d682728dd2d3b958119",
+    "defect3d/architecture/exporters.py": "45e4ba2645a73a8d82774438d115869e8d2a03bc3c72fcb031f364fb2eade594",
+    "defect3d/architecture/reactive_skin.py": "80a744c6291766cbd3c7b3eb9ac1be1c750160c8a1f67a5b720ef0cbfe2f0160",
+    "defect3d/architecture/scales.py": "b6539f92276ea00016bf79fca5017f3bd9fe329d1ce6e0a2b28ec2c57e5723b0",
+    "defect3d/architecture/ventilation.py": "fde6a85adc38f414fe059e61875a4b106f2d9c4016f3f1665f055b0b23f3d356",
+    "defect3d/asset_contract.py": "3ef92f2eec61454f780f6da2fbca028403c519c37e248dc35802f08eb4fb75c0",
+    "defect3d/blender_integration/__init__.py": "14fc6b49c53c197e3884c0e87846df9133b6f143686f709af5ece35b41f75b68",
+    "defect3d/blender_integration/_blender_check.py": "ff1e9c3394a28718c533e5123db29dc05c7aaf80bfd0e5b06d9afbf0a7fc1547",
+    "defect3d/blender_integration/exporter.py": "201dd5f4de49ed296783efd39f8c8c0045b641cf587acf9a4fdcfa2cc5c588cb",
+    "defect3d/blender_integration/module_registry.py": "cbe977ff5380b10a2ee6814908d6591da75856bfc8d48555f31af8bc007de233",
+    "defect3d/blender_integration/renderer.py": "fdf245a220a3e55bd88d92f927212f6c99ee80e2bb8fba0248c3c8326fc4eac3",
+    "defect3d/clock_mechanisms/__init__.py": "3e7a35e4730b7f7ba33c249aaa85b96c095a48aad28c5f800c84af273db0a388",
+    "defect3d/core/__init__.py": "2e236a22b916d089ef1b6eac4deb8e5971b41c8c2dfacb6b7b32bd168247d0c8",
+    "defect3d/core/composite.py": "69f80077f36ae6cd862dc13bb390fc687e987ebccdd780750df2bf991c49e5d6",
+    "defect3d/core/primitives.py": "4f7995f4ff96a31b184113d10c5ecfe97753a9df0afe752241247067e247c704",
+    "defect3d/core/serializer.py": "0c64c22151f676f2f31dbe8acf70005dbe5495e723c0a5208b06d70b074f880f",
+    "defect3d/core/shapes.py": "82da1814ef2071276d9457c1b99304e98b170af6e15737abaf1bac5cd6759dba",
+    "defect3d/core/transformations.py": "e1edee169a98afdb7dd0086069b9a37d64cba03711296295a7f0ea3c5b7e80d1",
+    "defect3d/evolutionary/__init__.py": "46ef3bd3ec882521085a73229001eda05f85dafe13ec7e8eae7de92f7b1c3a4a",
+    "defect3d/i18n/__init__.py": "70b216334aa9b91033aa9c2a9cd454071b539b9c9a2cbe1aad23adbfe2cd8168",
+    "defect3d/i18n/translator.py": "10fbed2808a53e9a8cc841bca708a8d3de0e97444aac70d55cda1c8dbcd4c31d",
+    "defect3d/integrations/__init__.py": "3ef2ab8b2636e4e05bf063c9a73db478e6b2bfba91eaa656590e601627c0a83e",
+    "defect3d/integrations/adapter.py": "e91f2f3c2a333c8e6976f08b3ee5fbf9250d571ae633e1707378f0c86e222277",
+    "defect3d/integrations/registry.py": "67d642da8ca4f104b527b25692ca8440f70173b3a8935a9109c7da7ca67297d0",
+    "defect3d/integrations/workspace.py": "f935dec8188c40f3a0fc2c6b04c09431c436a219c017810c9778e4d346fb8781",
+    "defect3d/mechanics/__init__.py": "92ad504c41c90888d4e3d27792d0568804ed2bac54ae28032dd90948b2df17be",
+    "defect3d/mechanics/engines.py": "e45fcbb4aaa96e9473421945adfe35bfd1311f417bdaeee9aea761995ccf5600",
+    "defect3d/mechanics/frames.py": "6b96280aee96da9ea7050bcc743b7e8410c41c464eabf98e5a6f9f6a2dddcc29",
+    "defect3d/mechanics/wheels.py": "c97bfa40a1c5ed3a5f713bedb51a073b75db4dddb219fc6ce5a848b82647b7c7",
+    "defect3d/physics/__init__.py": "574294608d4d841fb8ac23e05102370cca6baaf51701a0ce13981b5a34f7304c",
+    "defect3d/physics/simulator.py": "7eeba8609d337c73f32168dc6f95ad6e4c714f5e529d80c5b50c18bb273edfcb",
+    "defect3d/pipeline.py": "520bb8149d23c07abca4218cbc7d383505d59110da7e201257a092b27b60cbb2",
+    "defect3d/vehicles/__init__.py": "7288bae75adf8f6fbceb5ab7664572395c9f002c3be52950cf49038b246f748b",
+    "defect3d/vehicles/car.py": "f895b7ba0a5f35d2925e74b88a41334b87b51e5948543d72ab759550f9803e20",
+    "defect3d/vehicles/components.py": "9d384b5c7dbab5f70b8d3d5e11de094b249608c344d948b172d6d8d047074f63",
+    "defect3d/vehicles/motorcycle.py": "674f14304f977d66e2d272b7a0ab7c5a8bb973cae73a4cec625f8e85f19a6cb7"
+  },
+  "contract_sha256": "4d81fc15a66211f92a5a32e6c3339a3f3b9bcaf05f037b0db89ddef3cc9ca3d1",
+  "blender_version": "5.2.0 LTS",
+  "provider_bounds_m": [
+    [
+      3.2,
+      -1.5,
+      0.049999999999999836
+    ],
+    [
+      5.6000000000000005,
+      0.5,
+      2.25
+    ]
+  ],
+  "executed": [
+    "asset_contract_validation",
+    "Cube",
+    "CompositePart",
+    "serialization",
+    "pipeline_planning"
+  ],
+  "external_pipeline_steps_executed": false
+}

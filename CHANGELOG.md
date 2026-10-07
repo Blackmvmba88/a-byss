@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.5.0 — 2026-10-07
+
+- Bridge ejecutable al contrato Mamba3D y primitivas reales de 3defect.
+- Modelo CARGO-MR de seis paneles con cuatro referencias IF-11.
+- .blend editable, GLB completo y preview en corte.
+- Segundo proceso Blender para medir geometría guardada y verificar retorno.
+- Diez pruebas nuevas del bridge; treinta en total. Procedencia y hashes de entregables.
+
 ## 0.4.0 — 2026-10-06
 
 - Envolventes rectangulares y posiciones WH/MR/TS con pasillos reservados.

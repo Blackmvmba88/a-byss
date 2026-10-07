@@ -1,0 +1,8 @@
+{
+  "test": "Real Blender scale fault in memory; original .blend not saved or modified",
+  "operation": "CARGO-MR-BASE.scale.x = 1.01",
+  "expected": "reject",
+  "returncode": 2,
+  "error": "Bridge rejected: Dimension out of tolerance: CARGO-MR-BASE",
+  "status": "PASS_REJECTION"
+}

@@ -1,0 +1,22 @@
+{
+  "status": "PASS_DIGITAL_ROUND_TRIP",
+  "measurement_scope": "reopened .blend; GLB exported but not independently reimported",
+  "manufacturing_ready": false,
+  "release_status": "NOT_RELEASED",
+  "files_sha256": {
+    "models/geometry_assumptions.json": "efd7ac73c71a79c745c273b9b337f8b888f93f1523282cbcbd23426ab78b494c",
+    "bridges/mamba3d_bridge.py": "a5c9829b54fc1db5737434cb3240c01914f80fbe06c8a69ecdd52cdfbf14972a",
+    "bridges/run_cargo_mr.py": "d84aa44c67b6297ff1f8adbca3b5d8b0a5be4a664fec47c7caa3c5ba8a281705",
+    "blender/build_cargo_mr.py": "ff04783007e36464813c626af41a36a038c12539a5c6ac957e9875f516f15cce",
+    "blender/measure_cargo_mr.py": "7c9fe7609f551d329c2ceb9fabe4423293504bc2a703499c5a3952365a6f48b3",
+    "assets/cargo-mr/contract.json": "519fc3c2b1236aac53af886d55824de6293cc1cf23a3060c4bbfa39ade20e702",
+    "assets/cargo-mr/cargo-mr.blend": "5dd6a142e438196e1e00de1b50ec01a93457918ebd408dee96a6a74239fe8647",
+    "assets/cargo-mr/cargo-mr.glb": "aee00de6ab7c6ba979dcf88938278b79d3dfdafbfa854613123c2682d8132fc3",
+    "assets/cargo-mr/cargo-mr-preview.png": "8dff39a64bc5dae2c898496611d34e4fc74adf269dfa9607219adc9d085b0637",
+    "assets/cargo-mr/provider_execution.json": "316a01359b5d46c87f794fb82c7695281ef8e9b4e25e45a07938191eb72e13fc",
+    "assets/cargo-mr/provider_geometry.json": "dc108566a5ca88686d43ccfee4008261982799fb07e7613e2f6be8d82c5bc466",
+    "assets/cargo-mr/pipeline_plan.json": "45dc8f4509f915fe3cc9e167dc0d7b0a0596770aeddf0706f35a04a18fd26736",
+    "evidence/bridge-cargo-mr/measurements.json": "29a51adab2d1df88f930276d2450f2c226449c06a361c7032b9b8c767ec65e58",
+    "evidence/bridge-cargo-mr/verified_contract.json": "98533f837deaf6602745b10f2940c74470bebbb92112eea13fc14fc38217ed51"
+  }
+}
