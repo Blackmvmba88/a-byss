@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="370" viewBox="0 0 960 370">
+<rect width="960" height="370" fill="white"/>
+<g font-family="sans-serif" fill="#111"><text x="20" y="28" font-size="20">IF-11 · PLACAS HIPOTÉTICAS · MISMA ESCALA</text>
+<rect x="88.0" y="93.0" width="144.0" height="144.0" fill="#00d5ee" stroke="black" stroke-width="2"/>
+<circle cx="115.0" cy="120.0" r="6.3" fill="white" stroke="black"/>
+<circle cx="115.0" cy="210.0" r="6.3" fill="white" stroke="black"/>
+<circle cx="205.0" cy="120.0" r="6.3" fill="white" stroke="black"/>
+<circle cx="205.0" cy="210.0" r="6.3" fill="white" stroke="black"/>
+<text x="40" y="285" font-size="16">A: lado 80 / paso 50 mm</text>
+<text x="40" y="309" font-size="16">Espesor 4 mm · 0.1155 kg</text>
+<rect x="390.0" y="75.0" width="180.0" height="180.0" fill="#ffe100" stroke="black" stroke-width="2"/>
+<circle cx="417.0" cy="102.0" r="8.1" fill="white" stroke="black"/>
+<circle cx="417.0" cy="228.0" r="8.1" fill="white" stroke="black"/>
+<circle cx="543.0" cy="102.0" r="8.1" fill="white" stroke="black"/>
+<circle cx="543.0" cy="228.0" r="8.1" fill="white" stroke="black"/>
+<text x="360" y="285" font-size="16">B: lado 100 / paso 70 mm</text>
+<text x="360" y="309" font-size="16">Espesor 4 mm · 0.1853 kg</text>
+<rect x="710.0" y="75.0" width="180.0" height="180.0" fill="#ff7040" stroke="black" stroke-width="2"/>
+<circle cx="737.0" cy="102.0" r="8.1" fill="white" stroke="black"/>
+<circle cx="737.0" cy="228.0" r="8.1" fill="white" stroke="black"/>
+<circle cx="863.0" cy="102.0" r="8.1" fill="white" stroke="black"/>
+<circle cx="863.0" cy="228.0" r="8.1" fill="white" stroke="black"/>
+<text x="680" y="285" font-size="16">C: lado 100 / paso 70 mm</text>
+<text x="680" y="309" font-size="16">Espesor 6 mm · 0.2379 kg</text>
+<text x="20" y="350" font-size="15">Vista superior. Colores = identidad, no resistencia. No es plano de fabricación.</text></g></svg>

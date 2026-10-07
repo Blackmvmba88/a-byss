@@ -1,7 +1,7 @@
 {
   "name": "A-BYSS / BlackMamba Aerospace",
   "slug": "a-byss",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "updated": "2026-10-07",
   "language": "es",
   "status": "concept-research",
@@ -65,5 +65,12 @@
     "scope": "six independent scalar checks; no coupled structural model",
     "cargo_mr_status": "INCOMPLETE",
     "manufacturing_ready": false
+  },
+  "anchor_study": {
+    "entrypoint": "software/if11_trade.py",
+    "variants": 3,
+    "cases": 162,
+    "status": "hypothetical-not-released",
+    "evidence": "evidence/IF-11"
   }
 }

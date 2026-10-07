@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "basis": "Synthetic trade study, not flight loads or purchased hardware. One flat plate and four identical fastener assemblies; mating structure excluded.",
+  "density_kg_m3": 2700,
+  "material_status": "Generic assumed density only; alloy, temper and allowables not selected",
+  "tension_N": [4000, 8000, 12000],
+  "torque_Nm": [0, 40, 80],
+  "retained_preload_fraction": [0.7, 1.0],
+  "stiffness_fraction": [0.1, 0.2, 0.3],
+  "variants": [
+    {"id": "A", "side_m": 0.08, "thickness_m": 0.004, "pitch_m": 0.05, "hole_diameter_m": 0.007, "fastener_assembly_mass_kg": 0.012, "preload_per_bolt_N": 1500},
+    {"id": "B", "side_m": 0.10, "thickness_m": 0.004, "pitch_m": 0.07, "hole_diameter_m": 0.009, "fastener_assembly_mass_kg": 0.020, "preload_per_bolt_N": 2500},
+    {"id": "C", "side_m": 0.10, "thickness_m": 0.006, "pitch_m": 0.07, "hole_diameter_m": 0.009, "fastener_assembly_mass_kg": 0.020, "preload_per_bolt_N": 2500}
+  ]
+}

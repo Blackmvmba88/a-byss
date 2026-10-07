@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.7.0 — 2026-10-07
+
+- Tres variantes paramétricas de anclaje IF-11, con masas parciales y plano esquemático SVG.
+- 162 casos de tracción, par puro, precarga retenida y rigidez supuesta.
+- Separación axial y demanda de cortante independientes; resistencia combinada y vida pendientes.
+- Cuatro pruebas adicionales: 43 pruebas aprobadas. Ninguna variante liberada.
+
 ## 0.6.0 — 2026-10-07
 
 - Seis filtros mecánicos escalares sin dependencias externas: carga axial, torsión, separación, fractura, desgaste y fatiga.

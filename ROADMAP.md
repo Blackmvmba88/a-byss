@@ -88,3 +88,7 @@ Disponible un [presupuesto de interiores](docs/SIZING_BASELINE.md) reproducible 
 ## Incremento 0.4.0 — layouts y balance interior
 
 [Geometría y balance](docs/GEOMETRY_AND_BALANCE.md) añade posiciones, cajas, aperturas y CG del payload. Se detecta un caso de descarga lateral desequilibrada. Siguiente dependencia: misión concreta, masas fijas y geometría de acceso con recorrido continuo. G0/G1 siguen abiertos.
+
+## Incremento 0.7.0 — anclaje exploratorio
+
+[IF-11](docs/IF11_ANCHOR_STUDY.md) compara tres variantes bajo 162 combinaciones hipotéticas. Próxima dependencia: camino de carga, materiales y fijaciones trazables, precarga/rigidez caracterizadas; después protocolo de banco. G0/G1 siguen abiertos.

@@ -30,3 +30,7 @@ Estado actual: valores no congelados, compatibilidad física no aprobada.
 ## Exploración 0.4.0
 
 El [modelo geométrico](../docs/GEOMETRY_AND_BALANCE.md) propone cajas y posiciones con revisión `0.1-study`. Esa revisión identifica hipótesis de simulación, no compatibilidad aprobada. La [evidencia parcial](../evidence/P0-021/README.md) no verifica instalación continua, anclajes ni CG global.
+
+## Exploración 0.7.0
+
+[Estudio de un anclaje](../docs/IF11_ANCHOR_STUDY.md): tres placas hipotéticas y cuatro fijaciones por placa. Barrido común de cargas y precarga; no reemplaza las referencias geométricas del bridge ni aprueba las cargas de interfaz.
