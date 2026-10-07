@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.9.0 — 2026-10-07
+
+- Reparto precursor por posición para fuerza normal descentrada y par puro en B.
+- 144 casos; se reproduce el caso centrado y se detectan límites de apertura local.
+- Predicción de tensión anulada para todo el grupo al alcanzar apertura; sin extrapolación posterior.
+- Cinco pruebas nuevas de equilibrio, simetría y límites; 53 aprobadas.
+
 ## 0.8.0 — 2026-10-07
 
 - Candidato B con densidad 6061 trazable y referencia provisional M8 clase 8.8.

@@ -57,3 +57,7 @@ python3 -m unittest discover -s tests
 ```
 
 [Resultados completos](../evidence/IF-11/candidate/README.md). JSON de fuentes y entradas: `models/mechanics/if11_candidate.json`. Los hashes cubren entradas, código y reportes generados, no certifican la autenticidad del catálogo externo.
+
+## Continuación 0.9.0
+
+[La carga descentrada](IF11_ECCENTRIC.md) alcanza apertura local en algunos casos manteniendo la precarga de referencia. El resultado centrado no se generaliza a otras posiciones de carga.

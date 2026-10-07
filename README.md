@@ -6,7 +6,7 @@
 
 Una familia de vehículos especializados para conectar Tierra, atmósfera, órbita y espacio cislunar. A-BYSS coordina recursos y servicios; W-HALE eleva, M-RAY transporta y T-SHARK atiende misiones de respuesta rápida.
 
-**Estado:** definición conceptual P0 · **Versión documental:** 0.8.0 · **Actualización:** 2026-10-07. Repositorio público. Los objetivos de diseño no son prestaciones demostradas; todavía no hay hardware ni simuladores de vuelo validados.
+**Estado:** definición conceptual P0 · **Versión documental:** 0.9.0 · **Actualización:** 2026-10-07. Repositorio público. Los objetivos de diseño no son prestaciones demostradas; todavía no hay hardware ni simuladores de vuelo validados.
 
 ## Familia y capacidades objetivo
 
@@ -39,6 +39,7 @@ Inventario lógico, no plano físico ni balance longitudinal. WH, MR y TS son cl
 
 | Documento | Contenido |
 |---|---|
+| [Carga descentrada](docs/IF11_ECCENTRIC.md) | 144 casos, reparto por perno y apertura local |
 | [Material y precarga candidatos](docs/IF11_CANDIDATE.md) | Variante B, referencias y límites axiales |
 | [Anclaje IF-11](docs/IF11_ANCHOR_STUDY.md) | Tres variantes, 162 casos y masas parciales |
 | [Mecánica rápida](docs/FAST_MECHANICS.md) | Seis filtros escalares, supuestos y ejecución |

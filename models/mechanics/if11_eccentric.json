@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "reference_preload_N": 5000,
+  "offsets_m": [[0, 0], [0.01, 0], [0.025, 0], [0.01, 0.01]],
+  "torque_Nm": [0, 80],
+  "basis": "Hypothetical normal-force offsets relative to the centroid of one B anchor. Rigid plate and four identical linear local joints; full-contact precursor only. No plate bending or post-opening redistribution."
+}
