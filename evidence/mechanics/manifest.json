@@ -1,0 +1,17 @@
+{
+  "inputs": {
+    "models/mechanics/demo.json": "4c98a2a198651cb4dc72fded37246dafac61cc8fe16620c735ff268546ea6157",
+    "models/mechanics/cargo_mr_pending.json": "fd21e9d333cfe0da3cfa7f26e2a60d5f82d31299550a9adeb93c9ae971efb57e"
+  },
+  "code": {
+    "software/mechanical_screen.py": "70d21292dbade90960b0eaabd70faf20ba01c85fcee6b1ecf4e0ed52986d59ad",
+    "software/generate_mechanics_report.py": "d6b04c0f49a37e2c87762ee533617c07e86c9abd4fa7f3ae456dd964a0f107a6"
+  },
+  "release_status": "NOT_RELEASED",
+  "outputs": {
+    "README.md": "77ccf422018bf160f8c75ca551088bfec7c665a541718df146bb025d7c2b1b04",
+    "cargo_mr_results.json": "ed2b28735bfbaaca03729007cb67e3225a050a0750a0e273b81fd8c464ae1d55",
+    "comparison.svg": "820f8321b69e016c46aefb10961ec5daa2c4cea7e3e73f28f328d504a0bd800a",
+    "demo_results.json": "97b1956d33886177a2a965ed228d7fbbffa382bbd3836942d72a2b0cd46e6d3b"
+  }
+}

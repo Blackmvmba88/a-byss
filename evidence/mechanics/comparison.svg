@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="850" viewBox="0 0 1100 850">
+<rect width="1100" height="850" fill="white"/>
+<g font-family="sans-serif" fill="#111">
+<text x="30" y="35" font-size="24">A-BYSS · FILTRO MECÁNICO RÁPIDO</text>
+<text x="30" y="62" font-size="16">Demo sintética ≠ capacidad del vehículo. Barras: demanda / límite introducido.</text>
+<text x="30" y="105" font-size="20">DEMO-INDEPENDENT-COUPONS</text>
+<text x="30" y="140" font-size="17">Carga axial</text>
+<rect x="250" y="122" width="360" height="24" fill="#eee"/>
+<rect x="250" y="122" width="48.0" height="24" fill="#00a9c7"/>
+<path d="M490 118 v32" stroke="#111" stroke-width="2"/>
+<text x="630" y="140" font-size="16">0.200 · BELOW_INPUT_LIMIT</text>
+<text x="30" y="182" font-size="17">Torsión</text>
+<rect x="250" y="164" width="360" height="24" fill="#eee"/>
+<rect x="250" y="164" width="38.197186342054884" height="24" fill="#00a9c7"/>
+<path d="M490 160 v32" stroke="#111" stroke-width="2"/>
+<text x="630" y="182" font-size="16">0.159 · BELOW_INPUT_LIMIT</text>
+<text x="30" y="224" font-size="17">Separación de unión</text>
+<rect x="250" y="206" width="360" height="24" fill="#eee"/>
+<rect x="250" y="206" width="288.0" height="24" fill="#e33248"/>
+<path d="M490 202 v32" stroke="#111" stroke-width="2"/>
+<text x="630" y="224" font-size="16">1.200 · AT_OR_ABOVE_LIMIT</text>
+<text x="30" y="266" font-size="17">Fractura</text>
+<rect x="250" y="248" width="360" height="24" fill="#eee"/>
+<rect x="250" y="248" width="238.2177975617014" height="24" fill="#edb700"/>
+<path d="M490 244 v32" stroke="#111" stroke-width="2"/>
+<text x="630" y="266" font-size="16">0.993 · BELOW_INPUT_LIMIT</text>
+<text x="30" y="308" font-size="17">Desgaste</text>
+<rect x="250" y="290" width="360" height="24" fill="#eee"/>
+<rect x="250" y="290" width="120.0" height="24" fill="#00a9c7"/>
+<path d="M490 286 v32" stroke="#111" stroke-width="2"/>
+<text x="630" y="308" font-size="16">0.500 · BELOW_INPUT_LIMIT</text>
+<text x="30" y="350" font-size="17">Fatiga</text>
+<rect x="250" y="332" width="360" height="24" fill="#eee"/>
+<rect x="250" y="332" width="288.0" height="24" fill="#e33248"/>
+<path d="M490 328 v32" stroke="#111" stroke-width="2"/>
+<text x="630" y="350" font-size="16">1.200 · AT_OR_ABOVE_LIMIT</text>
+<text x="30" y="417" font-size="20">CARGO-MR-STRUCTURAL-DATA-PENDING</text>
+<text x="30" y="452" font-size="17">Carga axial</text>
+<rect x="250" y="434" width="360" height="24" fill="#eee"/>
+<rect x="250" y="434" width="0" height="24" fill="#aaa"/>
+<path d="M490 430 v32" stroke="#111" stroke-width="2"/>
+<text x="630" y="452" font-size="16">— · INCOMPLETE</text>
+<text x="30" y="494" font-size="17">Torsión</text>
+<rect x="250" y="476" width="360" height="24" fill="#eee"/>
+<rect x="250" y="476" width="0" height="24" fill="#aaa"/>
+<path d="M490 472 v32" stroke="#111" stroke-width="2"/>
+<text x="630" y="494" font-size="16">— · INCOMPLETE</text>
+<text x="30" y="536" font-size="17">Separación de unión</text>
+<rect x="250" y="518" width="360" height="24" fill="#eee"/>
+<rect x="250" y="518" width="0" height="24" fill="#aaa"/>
+<path d="M490 514 v32" stroke="#111" stroke-width="2"/>
+<text x="630" y="536" font-size="16">— · INCOMPLETE</text>
+<text x="30" y="578" font-size="17">Fractura</text>
+<rect x="250" y="560" width="360" height="24" fill="#eee"/>
+<rect x="250" y="560" width="0" height="24" fill="#aaa"/>
+<path d="M490 556 v32" stroke="#111" stroke-width="2"/>
+<text x="630" y="578" font-size="16">— · INCOMPLETE</text>
+<text x="30" y="620" font-size="17">Desgaste</text>
+<rect x="250" y="602" width="360" height="24" fill="#eee"/>
+<rect x="250" y="602" width="0" height="24" fill="#aaa"/>
+<path d="M490 598 v32" stroke="#111" stroke-width="2"/>
+<text x="630" y="620" font-size="16">— · INCOMPLETE</text>
+<text x="30" y="662" font-size="17">Fatiga</text>
+<rect x="250" y="644" width="360" height="24" fill="#eee"/>
+<rect x="250" y="644" width="0" height="24" fill="#aaa"/>
+<path d="M490 640 v32" stroke="#111" stroke-width="2"/>
+<text x="630" y="662" font-size="16">— · INCOMPLETE</text>
+<text x="30" y="785" font-size="15">Línea negra = 1.0. Amarillo desde 0.8: atención visual, sin margen de seguridad implícito.</text>
+<text x="30" y="812" font-size="15">Sin datos = sin barra. Escala hasta 1.5; cifra sin recorte. NOT_RELEASED.</text>
+</g></svg>

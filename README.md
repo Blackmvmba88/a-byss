@@ -6,7 +6,7 @@
 
 Una familia de vehículos especializados para conectar Tierra, atmósfera, órbita y espacio cislunar. A-BYSS coordina recursos y servicios; W-HALE eleva, M-RAY transporta y T-SHARK atiende misiones de respuesta rápida.
 
-**Estado:** definición conceptual P0 · **Versión documental:** 0.5.0 · **Actualización:** 2026-10-07. Repositorio público. Los objetivos de diseño no son prestaciones demostradas; todavía no hay hardware ni simuladores de vuelo validados.
+**Estado:** definición conceptual P0 · **Versión documental:** 0.6.0 · **Actualización:** 2026-10-07. Repositorio público. Los objetivos de diseño no son prestaciones demostradas; todavía no hay hardware ni simuladores de vuelo validados.
 
 ## Familia y capacidades objetivo
 
@@ -39,6 +39,8 @@ Inventario lógico, no plano físico ni balance longitudinal. WH, MR y TS son cl
 
 | Documento | Contenido |
 |---|---|
+| [Mecánica rápida](docs/FAST_MECHANICS.md) | Seis filtros escalares, supuestos y ejecución |
+| [Comparación mecánica](evidence/mechanics/README.md) | Tabla y barras: demo frente a datos pendientes |
 | [Puente Mamba3D](docs/MAMBA3D_BRIDGE.md) | 3defect → Blender → medición de retorno |
 | [CARGO-MR editable](assets/cargo-mr/README.md) | Primer .blend, GLB y preview generados |
 | [Geometría y balance](docs/GEOMETRY_AND_BALANCE.md) | Layouts, aperturas y CG del interior |

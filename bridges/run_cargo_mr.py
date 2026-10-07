@@ -18,6 +18,7 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--provider',type=Path,required=True,help='Trusted local 3defect checkout')
     parser.add_argument('--blender',default='blender')
+    parser.add_argument('--style',choices=['saturated','photocopy'],default='saturated')
     args=parser.parse_args()
     provider=args.provider.expanduser().resolve()
     validator=provider/'defect3d/asset_contract.py'
@@ -34,7 +35,7 @@ def main():
         module.assert_valid_asset_contract(contract)
         (stage/'contract.json').write_text(json.dumps(contract,indent=2)+'\n')
         commands=[
-          [executable,'--background','--factory-startup','--python-exit-code','2','--python',str(ROOT/'blender/build_cargo_mr.py'),'--','--provider',str(provider),'--contract',str(stage/'contract.json'),'--output',str(stage)],
+          [executable,'--background','--factory-startup','--python-exit-code','2','--python',str(ROOT/'blender/build_cargo_mr.py'),'--','--provider',str(provider),'--contract',str(stage/'contract.json'),'--output',str(stage),'--style',args.style],
           [executable,'--background',str(stage/'cargo-mr.blend'),'--python-exit-code','2','--python',str(ROOT/'blender/measure_cargo_mr.py'),'--','--output',str(stage/'measurements.json')]]
         for label,command in zip(('build','measure'),commands):
             print(f'{label}: Blender',flush=True)

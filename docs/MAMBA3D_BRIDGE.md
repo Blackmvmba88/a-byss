@@ -65,3 +65,7 @@ El contrato incluye hash canónico de la geometría fuente. El reporte de Blende
 [Blender editable](../assets/cargo-mr/cargo-mr.blend) · [GLB](../assets/cargo-mr/cargo-mr.glb) · [Vista previa](../assets/cargo-mr/cargo-mr-preview.png) · [Evidencia](../evidence/bridge-cargo-mr/README.md).
 
 Siguiente extensión: convertir PAX-4 al mismo contrato y comprobar el recorrido completo de instalación con la posición y la apertura. La conexión con Rod Forge y la reutilización del ensamblador de sockets siguen siendo posteriores; este primer puente ya ejecuta 3defect y Blender.
+
+## Preview rápido
+
+El bridge usa Blender Workbench para el preview, con `--style saturated` por defecto. `--style photocopy` selecciona grises. El corte visual deja visibles cuatro de los seis paneles; el GLB conserva el conjunto completo. Los colores identifican piezas, no tensiones. Ver [mecánica rápida](FAST_MECHANICS.md) para los filtros escalares independientes.

@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "case_id": "CARGO-MR-STRUCTURAL-DATA-PENDING",
+  "evidence_level": "geometry-only; no load or material evidence",
+  "checks": {
+    "axial": {
+      "applicable": false,
+      "basis": "",
+      "force_N": null,
+      "area_m2": null,
+      "allowable_Pa": null,
+      "length_m": null,
+      "E_Pa": null
+    },
+    "torsion": {
+      "applicable": false,
+      "basis": "",
+      "torque_Nm": null,
+      "outer_radius_m": null,
+      "polar_J_m4": null,
+      "length_m": null,
+      "G_Pa": null,
+      "allowable_shear_Pa": null
+    },
+    "separation": {
+      "applicable": false,
+      "basis": "",
+      "tensile_force_N": null,
+      "bolt_count": null,
+      "minimum_preload_per_bolt_N": null,
+      "stiffness_fraction": null
+    },
+    "fracture": {
+      "applicable": false,
+      "basis": "",
+      "tensile_stress_Pa": null,
+      "crack_a_m": null,
+      "geometry_Y": null,
+      "allowable_K_Pa_sqrt_m": null
+    },
+    "wear": {
+      "applicable": false,
+      "basis": "",
+      "dimensionless_k": null,
+      "normal_force_N": null,
+      "sliding_distance_m": null,
+      "hardness_Pa": null,
+      "allowable_volume_m3": null
+    },
+    "fatigue": {
+      "applicable": false,
+      "basis": "",
+      "blocks": null
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "case_id": "CARGO-MR-STRUCTURAL-DATA-PENDING",
+  "evidence_level": "geometry-only; no load or material evidence",
+  "checks": {
+    "axial": {
+      "status": "INCOMPLETE",
+      "missing": [
+        "force_N",
+        "area_m2",
+        "allowable_Pa",
+        "length_m",
+        "E_Pa"
+      ],
+      "utilization": null
+    },
+    "torsion": {
+      "status": "INCOMPLETE",
+      "missing": [
+        "torque_Nm",
+        "outer_radius_m",
+        "polar_J_m4",
+        "length_m",
+        "G_Pa",
+        "allowable_shear_Pa"
+      ],
+      "utilization": null
+    },
+    "separation": {
+      "status": "INCOMPLETE",
+      "missing": [
+        "tensile_force_N",
+        "bolt_count",
+        "minimum_preload_per_bolt_N",
+        "stiffness_fraction"
+      ],
+      "utilization": null
+    },
+    "fracture": {
+      "status": "INCOMPLETE",
+      "missing": [
+        "tensile_stress_Pa",
+        "crack_a_m",
+        "geometry_Y",
+        "allowable_K_Pa_sqrt_m"
+      ],
+      "utilization": null
+    },
+    "wear": {
+      "status": "INCOMPLETE",
+      "missing": [
+        "dimensionless_k",
+        "normal_force_N",
+        "sliding_distance_m",
+        "hardness_Pa",
+        "allowable_volume_m3"
+      ],
+      "utilization": null
+    },
+    "fatigue": {
+      "status": "INCOMPLETE",
+      "missing": [
+        "blocks"
+      ],
+      "utilization": null
+    }
+  },
+  "release_status": "NOT_RELEASED",
+  "scope": "independent scalar screening; no FEA or coupled failure prediction"
+}

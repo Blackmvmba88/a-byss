@@ -25,6 +25,7 @@ def main():
     parser.add_argument('--provider',type=Path,required=True)
     parser.add_argument('--contract',type=Path,required=True)
     parser.add_argument('--output',type=Path,required=True)
+    parser.add_argument('--style',choices=['saturated','photocopy'],default='saturated')
     args=parser.parse_args(sys.argv[sys.argv.index('--')+1:])
     if not bpy.app.background: raise RuntimeError('This builder requires a fresh background process')
     sys.path.insert(0,str(args.provider.resolve()))
@@ -40,7 +41,9 @@ def main():
     scene['abyss_contract_sha256']=digest(contract); scene['abyss_asset_id']=contract['asset_id']; scene['release_status']='NOT_RELEASED'
     payload=bpy.data.collections.new('CARGO-MR_PARTS'); scene.collection.children.link(payload)
     sockets=bpy.data.collections.new('IF-11_REFERENCE_SOCKETS'); scene.collection.children.link(sockets)
-    mats=[material('Panel graphite',(.06,.1,.15),.5),material('Pallet cyan',(.03,.42,.48),.35)]
+    palette={'BASE':(0.0,.85,1.0),'TOP':(.55,.08,1.0),'PORT':(1.0,.03,.35),'STARBOARD':(1.0,.75,0.0),'FORE':(.1,1.0,.15),'AFT':(1.0,.18,0.0)}
+    gray={'BASE':.95,'TOP':.65,'PORT':.30,'STARBOARD':.85,'FORE':.50,'AFT':.12}
+    mats={key:material(key, color if args.style=='saturated' else (gray[key],)*3) for key,color in palette.items()}
     assembly=CompositePart(contract['asset_id']); objects=[]
     for part in contract['parts']:
         dims=[part['dimensions'][a]['target'] for a in 'xyz']
@@ -53,7 +56,8 @@ def main():
         mesh=bpy.data.meshes.new(part['part_id']); mesh.from_pydata(vertices,[],faces); mesh.update()
         obj=bpy.data.objects.new(part['part_id'],mesh); payload.objects.link(obj)
         obj['part_id']=part['part_id']; obj['asset_id']=contract['asset_id']; obj['source']='3defect.Cube'; obj['engineering_status']='UNVALIDATED'
-        obj.data.materials.append(mats[1 if part['part_id'].endswith('BASE') else 0]); objects.append(obj)
+        key=part['part_id'].rsplit('-',1)[-1]
+        obj.data.materials.append(mats[key]); obj.color=mats[key].diffuse_color; objects.append(obj)
     for spec in contract['bridge']['sockets']:
         obj=bpy.data.objects.new(spec['id'],None); sockets.objects.link(obj); obj.location=spec['position_m']; obj.empty_display_type='ARROWS'; obj.empty_display_size=.14; obj['reference_only']=True
     lower,upper=assembly.get_bounds()
@@ -77,11 +81,29 @@ def main():
     floor=bpy.context.object; floor.name='PREVIEW_FLOOR'; floor.data.materials.append(material('Floor',(.025,.04,.065)))
     bpy.ops.object.camera_add(location=center+Vector((4,-6,4)))
     camera=bpy.context.object; camera.name='PREVIEW_CAMERA'; camera.rotation_euler=(center-camera.location).to_track_quat('-Z','Y').to_euler(); camera.data.type='ORTHO'; camera.data.ortho_scale=5.2; scene.camera=camera
-    for name,offset,power,size in [('KEY',(1,-3,6),1400,5),('FILL',(-4,-1,3),1000,4),('RIM',(2,4,4),1800,3)]:
-        bpy.ops.object.light_add(type='AREA',location=center+Vector(offset)); lamp=bpy.context.object; lamp.name='PREVIEW_'+name; lamp.data.energy=power; lamp.data.shape='DISK'; lamp.data.size=size; lamp.rotation_euler=(center-lamp.location).to_track_quat('-Z','Y').to_euler()
-    scene.render.engine='CYCLES'; scene.cycles.samples=32; scene.cycles.use_denoising=True
+    # Fast technical preview: no ray tracing, lights, denoising or simulation.
+    floor.hide_render=True
+    scene.render.engine='BLENDER_WORKBENCH'
+    shading=scene.display.shading
+    shading.light='FLAT'; shading.color_type='OBJECT'
+    shading.background_type='WORLD'; shading.show_shadows=False
+    shading.show_cavity=True; shading.cavity_type='BOTH'
+    shading.curvature_ridge_factor=2.5; shading.curvature_valley_factor=2.5
+    shading.show_object_outline=True; shading.object_outline_color=(0,0,0)
+    scene.view_settings.view_transform='Standard'
+    scene.view_settings.look='None'
+    scene.view_settings.exposure=0; scene.view_settings.gamma=1
+    # Camera-aligned annotation, excluded from delivery geometry by export order.
+    for name,body,location,font_size in [
+        ('TITLE','CARGO-MR / VISTA RAPIDA',(-2.4,1.7,-5),.14),
+        ('LEGEND','BASE: CIAN   LATERAL: AMARILLO   FRENTE: VERDE   FONDO: NARANJA' if args.style=='saturated' else 'BASE: BLANCO   LATERAL: GRIS CLARO   FRENTE: GRIS   FONDO: NEGRO',(-2.4,-1.7,-5),.065),
+        ('NOTE','CORTE VISUAL / 6 PIEZAS / GEOMETRIA CONCEPTUAL',(-2.4,-1.82,-5),.075)]:
+        curve=bpy.data.curves.new(name,'FONT'); curve.body=body; curve.size=font_size
+        label=bpy.data.objects.new('PREVIEW_'+name,curve); scene.collection.objects.link(label)
+        label.parent=camera; label.location=location; label.color=(0,0,0,1)
+    scene['preview_style']=args.style
     scene.render.resolution_x=1200; scene.render.resolution_y=900; scene.render.resolution_percentage=100
-    scene.world=bpy.data.worlds.new('Preview world'); scene.world.color=(.15,.15,.15); scene.render.filepath=str(out/'cargo-mr-preview.png')
+    scene.world=bpy.data.worlds.new('Preview world'); scene.world.color=(1,1,1); scene.render.filepath=str(out/'cargo-mr-preview.png')
     scene['preview_note']='Cutaway render hides TOP and PORT; six-panel model and GLB remain complete.'
     bpy.ops.wm.save_as_mainfile(filepath=str(out/'cargo-mr.blend'))
     bpy.ops.render.render(write_still=True)

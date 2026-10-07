@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.6.0 — 2026-10-07
+
+- Seis filtros mecánicos escalares sin dependencias externas: carga axial, torsión, separación, fractura, desgaste y fatiga.
+- Casos sintéticos separados del CARGO-MR, que conserva estados incompletos.
+- Reportes reproducibles JSON, tabla y barras SVG con hashes de procedencia.
+- Preview rápido Blender Workbench, colores saturados por pieza y opción monocroma.
+- Nueve pruebas mecánicas adicionales; treinta y nueve en total.
+
 ## 0.5.0 — 2026-10-07
 
 - Bridge ejecutable al contrato Mamba3D y primitivas reales de 3defect.
