@@ -1,7 +1,7 @@
 {
   "name": "A-BYSS / BlackMamba Aerospace",
   "slug": "a-byss",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "updated": "2026-10-07",
   "language": "es",
   "status": "concept-research",
@@ -82,5 +82,14 @@
     "entrypoint": "software/if11_eccentric.py",
     "cases": 144,
     "status": "rigid-plate-precursor-not-released"
+  },
+  "support_study": {
+    "entrypoint": "software/if11_support.py",
+    "status": "independent-elastic-surrogate-not-released",
+    "thickness_options_mm": [
+      6,
+      10,
+      12
+    ]
   }
 }

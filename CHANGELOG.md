@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.10.0 — 2026-10-07
+
+- Camino de carga conceptual con travesaño y dos tiras de contraplaca.
+- Comparación independiente de flexión elástica y masa para 6/10/12 mm.
+- Límites explícitos: contacto, cortante y soporte real pendientes; el travesaño no elimina un momento externo.
+- Tres pruebas nuevas; 56 aprobadas. Ninguna liberación estructural.
+
 ## 0.9.0 — 2026-10-07
 
 - Reparto precursor por posición para fuerza normal descentrada y par puro en B.

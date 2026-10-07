@@ -1,0 +1,105 @@
+{
+  "variants": [
+    {
+      "thickness_m": 0.006,
+      "backing_strips_mass_kg": 0.0768776021199595,
+      "cases": [
+        {
+          "force_N": 4000,
+          "load_per_strip_N": 2000.0,
+          "reaction_per_support_N": 1000.0,
+          "bending_stress_Pa": 233333333.3333333,
+          "midspan_deflection_m": 0.0004649964752453772,
+          "status": "ELASTIC_SURROGATE_ONLY",
+          "release_status": "NOT_RELEASED"
+        },
+        {
+          "force_N": 8000,
+          "load_per_strip_N": 4000.0,
+          "reaction_per_support_N": 2000.0,
+          "bending_stress_Pa": 466666666.6666666,
+          "midspan_deflection_m": 0.0009299929504907544,
+          "status": "ELASTIC_SURROGATE_ONLY",
+          "release_status": "NOT_RELEASED"
+        },
+        {
+          "force_N": 12000,
+          "load_per_strip_N": 6000.0,
+          "reaction_per_support_N": 3000.0,
+          "bending_stress_Pa": 700000000.0,
+          "midspan_deflection_m": 0.0013949894257361318,
+          "status": "ELASTIC_SURROGATE_ONLY",
+          "release_status": "NOT_RELEASED"
+        }
+      ]
+    },
+    {
+      "thickness_m": 0.01,
+      "backing_strips_mass_kg": 0.12812933686659916,
+      "cases": [
+        {
+          "force_N": 4000,
+          "load_per_strip_N": 2000.0,
+          "reaction_per_support_N": 1000.0,
+          "bending_stress_Pa": 83999999.99999999,
+          "midspan_deflection_m": 0.00010043923865300146,
+          "status": "ELASTIC_SURROGATE_ONLY",
+          "release_status": "NOT_RELEASED"
+        },
+        {
+          "force_N": 8000,
+          "load_per_strip_N": 4000.0,
+          "reaction_per_support_N": 2000.0,
+          "bending_stress_Pa": 167999999.99999997,
+          "midspan_deflection_m": 0.00020087847730600292,
+          "status": "ELASTIC_SURROGATE_ONLY",
+          "release_status": "NOT_RELEASED"
+        },
+        {
+          "force_N": 12000,
+          "load_per_strip_N": 6000.0,
+          "reaction_per_support_N": 3000.0,
+          "bending_stress_Pa": 252000000.0,
+          "midspan_deflection_m": 0.00030131771595900443,
+          "status": "ELASTIC_SURROGATE_ONLY",
+          "release_status": "NOT_RELEASED"
+        }
+      ]
+    },
+    {
+      "thickness_m": 0.012,
+      "backing_strips_mass_kg": 0.153755204239919,
+      "cases": [
+        {
+          "force_N": 4000,
+          "load_per_strip_N": 2000.0,
+          "reaction_per_support_N": 1000.0,
+          "bending_stress_Pa": 58333333.33333333,
+          "midspan_deflection_m": 5.812455940567215e-05,
+          "status": "ELASTIC_SURROGATE_ONLY",
+          "release_status": "NOT_RELEASED"
+        },
+        {
+          "force_N": 8000,
+          "load_per_strip_N": 4000.0,
+          "reaction_per_support_N": 2000.0,
+          "bending_stress_Pa": 116666666.66666666,
+          "midspan_deflection_m": 0.0001162491188113443,
+          "status": "ELASTIC_SURROGATE_ONLY",
+          "release_status": "NOT_RELEASED"
+        },
+        {
+          "force_N": 12000,
+          "load_per_strip_N": 6000.0,
+          "reaction_per_support_N": 3000.0,
+          "bending_stress_Pa": 175000000.0,
+          "midspan_deflection_m": 0.00017437367821701648,
+          "status": "ELASTIC_SURROGATE_ONLY",
+          "release_status": "NOT_RELEASED"
+        }
+      ]
+    }
+  ],
+  "basis": "Concept: a centered crosshead applies half the normal force to the midpoint of each of two backing strips. Each strip has two ideal simple supports at the fastener rows. Not a validated representation of bolt/contact compliance.",
+  "release_status": "NOT_RELEASED"
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "basis": "Concept: a centered crosshead applies half the normal force to the midpoint of each of two backing strips. Each strip has two ideal simple supports at the fastener rows. Not a validated representation of bolt/contact compliance.",
+  "strip_length_m": 0.10,
+  "strip_width_m": 0.025,
+  "support_span_m": 0.07,
+  "hole_diameter_m": 0.009,
+  "thickness_options_m": [0.006, 0.010, 0.012],
+  "density_kg_m3": 2700,
+  "E_Pa": 68300000000,
+  "source": {"url": "https://online.kaiseraluminum.com/depot/PublicProductInformation/Document/1015/Kaiser_Aluminum_6061_Sheet_Coil_and_Plate.pdf", "revision": "05/06", "locator": "page 1 typical modulus 68.3 GPa; page 2 nominal density 2.70 Mg/m3", "status": "Typical properties, not certified allowables"},
+  "source_force_N": [4000, 8000, 12000]
+}
